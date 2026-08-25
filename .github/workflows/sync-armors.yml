@@ -1,0 +1,47 @@
+name: Sync armor database
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 10 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-armors.mjs'
+      - '.github/workflows/sync-armors.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-armors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout calculator
+        uses: actions/checkout@v4
+        with:
+          path: calculator
+
+      - name: Checkout official EXBO database
+        uses: actions/checkout@v4
+        with:
+          repository: EXBO-Studio/stalzone-database
+          path: stalzone-database
+
+      - name: Build compact armor database
+        working-directory: calculator
+        run: node scripts/build-armors.mjs ../stalzone-database/global/items/armor armors.json
+
+      - name: Commit armor updates
+        working-directory: calculator
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add armors.json
+          if git diff --cached --quiet; then
+            echo "Armor database is already current."
+            exit 0
+          fi
+          git commit -m "Sync armor database from EXBO"
+          git push
