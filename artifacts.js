@@ -1,5 +1,5 @@
 const ARTIFACT_DATA_URL = "https://raw.githubusercontent.com/will-bot2026/stalcraft_v1/main/data/normalized/artifacts.json";
-const CONTAINER_DATA_URL = "https://raw.githubusercontent.com/will-bot2026/stalcraft_v1/main/data/normalized/containers.json";
+const CONTAINER_DATA_URL = "containers.json";
 
 const FALLBACK_ARTIFACTS = [
   {
@@ -24,7 +24,7 @@ const FALLBACK_ARTIFACTS = [
 ];
 
 const FALLBACK_CONTAINERS = [
-  { id: "p92d", name: "Hive Container", category: "containers", capacity: 5, protection: 89.5, effectiveness: 105, stats: [] }
+  { id: "p92d", name: "Hive Container", category: "containers", rank: "master", capacity: 5, protection: 89.5, effectiveness: 105, stats: [] }
 ];
 
 async function loadJson(url) {
