@@ -3,18 +3,43 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Stalzone Chilly Calculator</title>
+  <title>Stalzone Artifact Calculator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="wrap">
-    <h1>Chilly Calculator</h1>
-    <p class="lead">Prototype using the Chilly formulas we have confirmed so far.</p>
+    <header class="hero">
+      <p class="eyebrow">STALZONE ARTIFACT CALCULATOR</p>
+      <h1>Artifact Calculator</h1>
+      <p class="lead">Full artifact list with quality, Potential, and additional-property scaling. Chilly remains our known-good reference artifact.</p>
+      <div class="database-line">
+        <span id="databaseStatus" class="status">Loading artifact database…</span>
+        <span><strong id="artifactCount">0</strong> artifacts</span>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Choose an artifact</h2>
+      <div class="artifact-picker">
+        <label>
+          Search
+          <input id="artifactSearch" type="search" placeholder="Try Chilly, Spiral, Bracelet…" autocomplete="off" />
+        </label>
+        <label>
+          Artifact
+          <select id="artifactSelect"></select>
+        </label>
+      </div>
+      <div class="meta-row">
+        <span>Class: <strong id="category">—</strong></span>
+        <span>Rarity: <strong id="rarity">—</strong></span>
+      </div>
+    </section>
 
     <section class="card controls">
       <label>
         Quality (%)
-        <input id="quality" type="number" min="130" max="145" value="135" />
+        <input id="quality" type="number" min="85" max="190" step="0.1" value="135" />
       </label>
       <label>
         Potential
@@ -23,30 +48,31 @@
     </section>
 
     <section class="card">
-      <h2>Additional properties</h2>
-      <p>Unlocked slots: <strong id="slotCount">1</strong></p>
-      <div class="checks">
-        <label><input type="checkbox" value="vitality" /> Vitality</label>
-        <label><input type="checkbox" value="burning" /> Burning reduction</label>
-        <label><input type="checkbox" value="explosionProtection" /> Explosion Protection</label>
+      <div class="section-title-row">
+        <div>
+          <h2>Additional properties</h2>
+          <p class="muted">+5 unlocks 1 slot, +10 unlocks 2, +15 unlocks 3. Properties cannot repeat.</p>
+        </div>
+        <span class="slot-pill">Unlocked: <strong id="slotCount">1</strong></span>
       </div>
+      <div id="additionalOptions" class="checks"></div>
       <p id="warning" class="warning"></p>
     </section>
 
     <section class="card">
-      <h2 id="artifactTitle">Chilly — 135% +6</h2>
-      <div class="stats">
-        <div><span>Vitality</span><strong id="vitality">+4.08%</strong></div>
-        <div><span>Temperature</span><strong id="temperature">-0.58</strong></div>
-        <div><span>Frost</span><strong id="frost">+0.90</strong></div>
-        <div><span>Burning</span><strong id="burning">-0.60</strong></div>
-        <div id="explosionRow" class="hidden"><span>Explosion Protection</span><strong id="explosion">+0.00</strong></div>
-      </div>
+      <h2 id="artifactTitle">Loading…</h2>
+      <div id="stats" class="stats"></div>
     </section>
 
     <section class="card small">
-      <h2>Known test cases</h2>
+      <h2>Formula safety check</h2>
       <p id="tests">Running…</p>
+      <p class="muted">Standard artifact properties use the quality/Potential rules we verified. Harmful properties interpolate within the current rarity band. Unusual special-mechanic rows are shown but deliberately not run through the generic formula until we verify their individual rules.</p>
+    </section>
+
+    <section class="card small source-note">
+      <h2>Data source</h2>
+      <p>The artifact list loads from a normalized public dataset built from EXBO's STALZONE database with supplemental Wiki-derived additional-property data. This lets us include the full list and the +5/+10/+15 property pools without manually entering every artifact.</p>
     </section>
   </main>
 
