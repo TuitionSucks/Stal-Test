@@ -8,74 +8,163 @@
 </head>
 <body>
   <main class="wrap">
-    <header class="masthead">
-      <div>
-        <p class="eyebrow">STALZONE</p>
-        <h1>Artifact Loadout Calculator</h1>
-        <p class="lead">Build a full container loadout using exact artifact quality and exact Potential levels from +0 through +15.</p>
+    <header>
+      <div class="mast-row">
+        <div class="masthead">
+          <div class="mast-mark" aria-hidden="true">S</div>
+          <div>
+            <h1><span>Artifact</span> Loadout Calculator</h1>
+            <p>Exact quality, exact +0 through +15 Potential, and build searching.</p>
+          </div>
+        </div>
+        <div class="theme-switch" aria-label="Theme">
+          <span class="theme-label">Theme</span>
+          <div class="theme-btns">
+            <button class="theme-btn" type="button" data-theme="grey" aria-label="Grey theme" aria-pressed="true"><span class="theme-swatch"></span></button>
+            <button class="theme-btn" type="button" data-theme="violet" aria-label="Violet theme" aria-pressed="false"><span class="theme-swatch"></span></button>
+            <button class="theme-btn" type="button" data-theme="ice" aria-label="Ice theme" aria-pressed="false"><span class="theme-swatch"></span></button>
+            <button class="theme-btn" type="button" data-theme="lume" aria-label="Lume theme" aria-pressed="false"><span class="theme-swatch"></span></button>
+            <button class="theme-btn" type="button" data-theme="sage" aria-label="Sage theme" aria-pressed="false"><span class="theme-swatch"></span></button>
+          </div>
+        </div>
       </div>
-      <div class="database-line">
-        <span id="databaseStatus" class="status">Loading database…</span>
-        <span><strong id="artifactCount">0</strong> artifacts</span>
+      <div class="mast-notes">
+        <p><span id="databaseStatus">Loading database…</span> · <strong id="artifactCount">0</strong> artifacts</p>
+        <p id="tests">Running Chilly formula check…</p>
       </div>
     </header>
 
-    <div class="app-grid">
-      <section class="left-column">
-        <article class="panel">
-          <div class="panel-heading">
-            <div>
-              <p class="section-kicker">Container</p>
-              <h2>Choose your container</h2>
-            </div>
-            <button id="clearLoadout" class="ghost-button" type="button">Clear loadout</button>
+    <div class="grid">
+      <aside class="controls-column">
+        <div class="console">
+          <div class="mode-toggle" role="tablist" aria-label="Calculator mode">
+            <button id="finderModeBtn" class="mode-toggle-btn active" type="button" role="tab" aria-selected="true">Finder</button>
+            <button id="loadoutModeBtn" class="mode-toggle-btn" type="button" role="tab" aria-selected="false">Loadout</button>
           </div>
+          <div class="console-actions">
+            <button id="findBuilds" class="primary-button" type="button">Find loadouts</button>
+            <button id="resetFinder" class="secondary-button" type="button">Reset</button>
+          </div>
+        </div>
 
+        <section class="panel">
+          <h2>Container</h2>
           <label class="field">
             <span>Container</span>
             <select id="containerSelect"></select>
           </label>
-
           <div class="container-meta">
-            <span>Slots <strong id="containerCapacity">—</strong></span>
-            <span>Protection <strong id="containerProtection">—</strong></span>
-            <span>Effectiveness <strong id="containerEffectiveness">—</strong></span>
+            <span><small>Slots</small><strong id="containerCapacity">—</strong></span>
+            <span><small>Protection</small><strong id="containerProtection">—</strong></span>
+            <span><small>Effectiveness</small><strong id="containerEffectiveness">—</strong></span>
           </div>
-        </article>
+        </section>
 
-        <article class="panel">
-          <div class="panel-heading">
-            <div>
-              <p class="section-kicker">Loadout</p>
-              <h2>Artifacts</h2>
-              <p class="muted">Each slot has its own quality, Potential, and additional properties.</p>
+        <div id="finderControls">
+          <section class="panel">
+            <h2>Artifact range</h2>
+            <p class="panel-hint">Search exact Potential levels instead of only +0 or +15.</p>
+            <div class="range-grid">
+              <label class="field">
+                <span>Quality min</span>
+                <div class="suffix-input"><input id="qualityMin" type="number" min="85" max="190" step="1" value="130" /><span>%</span></div>
+              </label>
+              <label class="field">
+                <span>Quality max</span>
+                <div class="suffix-input"><input id="qualityMax" type="number" min="85" max="190" step="1" value="160" /><span>%</span></div>
+              </label>
+              <label class="field">
+                <span>Potential min</span>
+                <select id="potentialMin"></select>
+              </label>
+              <label class="field">
+                <span>Potential max</span>
+                <select id="potentialMax"></select>
+              </label>
             </div>
-            <span class="slot-counter"><strong id="filledSlots">0</strong>/<strong id="totalSlots">0</strong></span>
-          </div>
+            <label class="switch-row">
+              <input id="includeAdditionals" type="checkbox" checked />
+              <span>
+                <strong>Use additional properties</strong>
+                <small>Finder can choose unlocked +5 / +10 / +15 rolls when they help a requirement.</small>
+              </span>
+            </label>
+          </section>
 
-          <div id="loadoutSlots" class="loadout-slots"></div>
-        </article>
-
-        <article class="panel small-panel">
-          <p id="tests" class="muted">Running Chilly formula check…</p>
-        </article>
-      </section>
-
-      <aside class="right-column">
-        <article class="panel results-panel">
-          <div class="panel-heading">
-            <div>
-              <p class="section-kicker">Build totals</p>
-              <h2 id="buildTitle">Empty loadout</h2>
+          <section class="panel">
+            <div class="section-row">
+              <div>
+                <h2>Requirements</h2>
+                <p class="panel-hint">Tell the finder the minimums or maximums your build needs.</p>
+              </div>
+              <button id="addRequirement" class="mini-button" type="button">+ Add</button>
             </div>
-            <span id="buildRarityHint" class="status subtle">Exact levels enabled</span>
-          </div>
+            <div id="requirements" class="requirements"></div>
+          </section>
 
-          <div id="containerBonuses" class="bonus-strip"></div>
-          <div id="buildStats" class="build-stats"></div>
-          <p id="emptyBuildMessage" class="empty-message">Choose artifacts on the left to see the combined build here.</p>
-        </article>
+          <section class="panel">
+            <h2>Artifact pool</h2>
+            <p class="panel-hint">Leave blank to use every artifact. Artifact labels show the name only.</p>
+            <label class="field">
+              <span>Optional name filter</span>
+              <input id="artifactPoolFilter" type="search" placeholder="Example: Chilly" autocomplete="off" />
+            </label>
+            <p class="pool-count"><strong id="eligibleArtifactCount">0</strong> artifacts eligible</p>
+          </section>
+        </div>
+
+        <div id="loadoutControls" hidden>
+          <section class="panel">
+            <div class="section-row">
+              <div>
+                <h2>Manual loadout</h2>
+                <p class="panel-hint">Every slot can use its own artifact, quality, Potential, and additionals.</p>
+              </div>
+              <button id="clearLoadout" class="mini-button" type="button">Clear</button>
+            </div>
+            <div class="slot-count-line"><strong id="filledSlots">0</strong>/<strong id="totalSlots">0</strong> slots filled</div>
+            <div id="loadoutSlots" class="loadout-slots"></div>
+          </section>
+        </div>
       </aside>
+
+      <section class="results-column">
+        <div id="finderResults">
+          <section class="panel results-panel">
+            <div class="results-heading">
+              <div>
+                <h2>Loadout results</h2>
+                <p id="searchSummary" class="panel-hint">Set your requirements, then click Find loadouts.</p>
+              </div>
+              <span id="resultCount" class="result-count">0</span>
+            </div>
+            <div id="searchProgress" class="search-progress" hidden></div>
+            <div id="optimizerResults" class="optimizer-results"></div>
+            <div id="finderEmpty" class="empty-state">
+              <strong>Ready to search</strong>
+              <span>The finder will test artifact combinations for the selected container and return the closest matching builds.</span>
+            </div>
+          </section>
+        </div>
+
+        <div id="loadoutResults" hidden>
+          <section class="panel results-panel sticky-results">
+            <div class="results-heading">
+              <div>
+                <h2>Build totals</h2>
+                <p id="buildTitle" class="panel-hint">Empty loadout</p>
+              </div>
+              <span class="exact-pill">Exact levels</span>
+            </div>
+            <div id="containerBonuses" class="bonus-strip"></div>
+            <div id="buildStats" class="build-stats"></div>
+            <div id="emptyBuildMessage" class="empty-state">
+              <strong>No artifacts selected</strong>
+              <span>Add artifacts on the left or load one of the finder results.</span>
+            </div>
+          </section>
+        </div>
+      </section>
     </div>
   </main>
 
