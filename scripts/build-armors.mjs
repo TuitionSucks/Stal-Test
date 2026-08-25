@@ -59,24 +59,18 @@ function collectNumericStats(node, found = []) {
 }
 
 function mergeStats(stats) {
+  // EXBO tooltips can repeat the same already-final stat in multiple blocks.
+  // Keep the first visible value instead of adding repeated tooltip entries together.
   const map = new Map();
   for (const stat of stats) {
-    const existing = map.get(stat.key);
-    if (!existing) {
-      map.set(stat.key, { ...stat });
-    } else if (Math.abs(existing.value - stat.value) > 1e-9) {
-      // Some suits expose more than one contribution for the same stat. Treat them
-      // as additive instead of silently dropping a real bonus.
-      existing.value += stat.value;
-      existing.isPercentage = existing.isPercentage || stat.isPercentage;
-      existing.isPositive = existing.value >= 0;
-    }
+    if (!map.has(stat.key)) map.set(stat.key, { ...stat });
   }
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
 function rankFromColor(color = '') {
-  return String(color).replace(/^RANK_/, '').toLowerCase();
+  const normalized = String(color).replace(/^RANK_/, '').toLowerCase();
+  return normalized && normalized !== 'default' ? normalized : 'common';
 }
 
 const armors = [];
