@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stalzone Chilly Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Chilly Calculator</h1>
+    <p class="lead">Prototype using the Chilly formulas we have confirmed so far.</p>
+
+    <section class="card controls">
+      <label>
+        Quality (%)
+        <input id="quality" type="number" min="130" max="145" value="135" />
+      </label>
+      <label>
+        Potential
+        <select id="potential"></select>
+      </label>
+    </section>
+
+    <section class="card">
+      <h2>Additional properties</h2>
+      <p>Unlocked slots: <strong id="slotCount">1</strong></p>
+      <div class="checks">
+        <label><input type="checkbox" value="vitality" /> Vitality</label>
+        <label><input type="checkbox" value="burning" /> Burning reduction</label>
+        <label><input type="checkbox" value="explosionProtection" /> Explosion Protection</label>
+      </div>
+      <p id="warning" class="warning"></p>
+    </section>
+
+    <section class="card">
+      <h2 id="artifactTitle">Chilly — 135% +6</h2>
+      <div class="stats">
+        <div><span>Vitality</span><strong id="vitality">+4.08%</strong></div>
+        <div><span>Temperature</span><strong id="temperature">-0.58</strong></div>
+        <div><span>Frost</span><strong id="frost">+0.90</strong></div>
+        <div><span>Burning</span><strong id="burning">-0.60</strong></div>
+        <div id="explosionRow" class="hidden"><span>Explosion Protection</span><strong id="explosion">+0.00</strong></div>
+      </div>
+    </section>
+
+    <section class="card small">
+      <h2>Known test cases</h2>
+      <p id="tests">Running…</p>
+    </section>
+  </main>
+
+  <script src="artifacts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
