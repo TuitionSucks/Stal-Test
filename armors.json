@@ -1833,7 +1833,7 @@
     "id": "rwg9l",
     "name": "Assault NVG",
     "category": "armor/device",
-    "rank": "default",
+    "rank": "common",
     "stats": []
   },
   {
@@ -1861,7 +1861,7 @@
     "id": "qjo2j",
     "name": "Aurora Jumpsuit",
     "category": "armor/combined",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -2181,14 +2181,14 @@
     "id": "6wgj6",
     "name": "Aww Scary NVG",
     "category": "armor/device",
-    "rank": "default",
+    "rank": "common",
     "stats": []
   },
   {
     "id": "knqmy",
     "name": "Bandit Cloak",
     "category": "armor/combat",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -2292,7 +2292,7 @@
     "id": "1rk6g",
     "name": "Bandit Coat",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -2396,7 +2396,7 @@
     "id": "g4yw6",
     "name": "Bandit Coat",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -2508,7 +2508,7 @@
     "id": "0r429",
     "name": "Bandit Suit",
     "category": "armor/combined",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -3316,7 +3316,7 @@
     "id": "7lzdr",
     "name": "Broken NVG",
     "category": "armor/device",
-    "rank": "default",
+    "rank": "common",
     "stats": []
   },
   {
@@ -4251,7 +4251,7 @@
     "id": "6w0p0",
     "name": "Citizen",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -4363,7 +4363,7 @@
     "id": "4ql0r",
     "name": "Cloak",
     "category": "armor/combat",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -4571,7 +4571,7 @@
     "id": "3g6p5",
     "name": "Dash Suit",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -5411,7 +5411,7 @@
     "id": "rwnrv",
     "name": "Gorka-3 Suit",
     "category": "armor/combined",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -5995,7 +5995,7 @@
     "id": "7lmpj",
     "name": "Hooligan Suit",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -6451,7 +6451,7 @@
     "id": "dmgqj",
     "name": "Hunter's Cloak",
     "category": "armor/combat",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -6771,7 +6771,7 @@
     "id": "wjgo2",
     "name": "IP-4M",
     "category": "armor/scientist",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -6875,7 +6875,7 @@
     "id": "96n2l",
     "name": "Jacket",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -6979,7 +6979,7 @@
     "id": "4ql2r",
     "name": "Jacket with Body Armor",
     "category": "armor/combat",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -7075,7 +7075,7 @@
     "id": "m062y",
     "name": "Jacket with Body Armor",
     "category": "armor/combat",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -9339,7 +9339,7 @@
     "id": "zzy6y",
     "name": "Mole Bandit Jacket",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -9451,7 +9451,7 @@
     "id": "y35ok",
     "name": "Mole Suit",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -9931,7 +9931,7 @@
     "id": "0r439",
     "name": "Old Hazmat Suit",
     "category": "armor/scientist",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -10603,7 +10603,7 @@
     "id": "1rk7g",
     "name": "PS-1 Picklock",
     "category": "armor/combined",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -12995,7 +12995,7 @@
     "id": "5lr71",
     "name": "Stalker Coat",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",
@@ -14515,7 +14515,7 @@
     "id": "p6my4",
     "name": "Warm Sweater",
     "category": "armor/clothes",
-    "rank": "default",
+    "rank": "common",
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.biological_protection",

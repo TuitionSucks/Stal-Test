@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "v667",
+    "name": "Bale Bag",
+    "category": "backpacks",
+    "rank": "master",
+    "capacity": 3,
+    "protection": 89.5,
+    "effectiveness": 123,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 25,
+        "max": 25,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.frost_accumulation",
+        "name": "Frost",
+        "min": 1,
+        "max": 1,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 5,
+        "max": 5,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+        "name": "Running speed",
+        "min": 5,
+        "max": 5,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.stamina_bonus",
+        "name": "Stamina",
+        "min": 50,
+        "max": 50,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "rgoz",
+    "name": "Barrel Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 7,
+    "protection": 60.000004,
+    "effectiveness": 92.5,
+    "stats": []
+  },
+  {
+    "id": "w4wz",
+    "name": "Berloga-4 Container",
+    "category": "containers",
+    "rank": "newbie",
+    "capacity": 4,
+    "protection": 78.5,
+    "effectiveness": 90,
+    "stats": []
+  },
+  {
+    "id": "l3n2",
+    "name": "Berloga-4U Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 4,
+    "protection": 78.5,
+    "effectiveness": 100,
+    "stats": []
+  },
+  {
+    "id": "d3kg",
+    "name": "Berloga-5 Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 5,
+    "protection": 78.5,
+    "effectiveness": 90,
+    "stats": []
+  },
+  {
+    "id": "9ygq",
+    "name": "Berloga-5u Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 5,
+    "protection": 78.5,
+    "effectiveness": 100,
+    "stats": []
+  },
+  {
+    "id": "g35n",
+    "name": "Berloga-6 Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 78.5,
+    "effectiveness": 100,
+    "stats": []
+  },
+  {
+    "id": "v6y7",
+    "name": "Canister Container",
+    "category": "containers",
+    "rank": "newbie",
+    "capacity": 5,
+    "protection": 60.000004,
+    "effectiveness": 75,
+    "stats": []
+  },
+  {
+    "id": "6g5n",
+    "name": "Canister-U Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 5,
+    "protection": 60.000004,
+    "effectiveness": 83.5,
+    "stats": []
+  },
+  {
+    "id": "k3oj",
+    "name": "Cell Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 4,
+    "protection": 89.5,
+    "effectiveness": 95,
+    "stats": []
+  },
+  {
+    "id": "o3d5",
+    "name": "Cell-U Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 4,
+    "protection": 89.5,
+    "effectiveness": 110,
+    "stats": []
+  },
+  {
+    "id": "yq90",
+    "name": "Chitin Backpack",
+    "category": "backpacks",
+    "rank": "legend",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 115,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 47,
+        "max": 47,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "9y4q",
+    "name": "Cocoon Container",
+    "category": "containers",
+    "rank": "newbie",
+    "capacity": 3,
+    "protection": 89.5,
+    "effectiveness": 100,
+    "stats": []
+  },
+  {
+    "id": "yqk0",
+    "name": "Cocoon-U Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 3,
+    "protection": 89.5,
+    "effectiveness": 110,
+    "stats": []
+  },
+  {
+    "id": "p262",
+    "name": "Coffin Backpack",
+    "category": "backpacks",
+    "rank": "master",
+    "capacity": 5,
+    "protection": 78.5,
+    "effectiveness": 110,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 40,
+        "max": 40,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "3d11",
+    "name": "Cool Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 5,
+    "protection": 75,
+    "effectiveness": 92.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.biological_accumulation",
+        "name": "Biological infection",
+        "min": 0.5,
+        "max": 0.5,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.thermal_accumulation",
+        "name": "Temperature",
+        "min": -1.875,
+        "max": -1.875,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "l362",
+    "name": "CRAW-6 Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 97,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+        "name": "Bullet resistance",
+        "min": 23,
+        "max": 23,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+        "name": "Laceration protection",
+        "min": 46,
+        "max": 46,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "29o6",
+    "name": "Duffel Bag",
+    "category": "backpacks",
+    "rank": "common",
+    "capacity": 3,
+    "protection": 60.000004,
+    "effectiveness": 77.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 31,
+        "max": 31,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "12r1",
+    "name": "Errand Junior Backpack",
+    "category": "backpacks",
+    "rank": "newbie",
+    "capacity": 4,
+    "protection": 60.000004,
+    "effectiveness": 75,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 35,
+        "max": 35,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "q194",
+    "name": "Forager Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 4,
+    "protection": 78.5,
+    "effectiveness": 113,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.radiation_accumulation",
+        "name": "Radiation",
+        "min": -1.62,
+        "max": -1.62,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "j34l",
+    "name": "Freezer Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 75,
+    "effectiveness": 102.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.biological_accumulation",
+        "name": "Biological infection",
+        "min": 0.5,
+        "max": 0.5,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.thermal_accumulation",
+        "name": "Temperature",
+        "min": -2.5,
+        "max": -2.5,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "g3ln",
+    "name": "Fridge Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 4,
+    "protection": 78.5,
+    "effectiveness": 113,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.thermal_accumulation",
+        "name": "Temperature",
+        "min": -1.62,
+        "max": -1.62,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "l332",
+    "name": "Hellboy Backpack",
+    "category": "backpacks",
+    "rank": "newbie",
+    "capacity": 3,
+    "protection": 78.5,
+    "effectiveness": 104.99999,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 18,
+        "max": 18,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "n339",
+    "name": "Hellboy-U Backpack",
+    "category": "backpacks",
+    "rank": "stalker",
+    "capacity": 3,
+    "protection": 78.5,
+    "effectiveness": 116.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 24,
+        "max": 24,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "p92d",
+    "name": "Hive Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 5,
+    "protection": 89.5,
+    "effectiveness": 104.99999,
+    "stats": []
+  },
+  {
+    "id": "p99d",
+    "name": "IU-2 Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 3,
+    "protection": 95,
+    "effectiveness": 139,
+    "stats": []
+  },
+  {
+    "id": "0ndk",
+    "name": "Jagdtasche",
+    "category": "backpacks",
+    "rank": "veteran",
+    "capacity": 4,
+    "protection": 78.5,
+    "effectiveness": 112.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 37,
+        "max": 37,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "zj1k",
+    "name": "Kega Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 78.5,
+    "stats": []
+  },
+  {
+    "id": "k3kj",
+    "name": "Kega-RS Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 90,
+    "stats": []
+  },
+  {
+    "id": "9yyq",
+    "name": "KZS-1 Container",
+    "category": "containers",
+    "rank": "common",
+    "capacity": 1,
+    "protection": 95,
+    "effectiveness": 150,
+    "stats": []
+  },
+  {
+    "id": "yqq0",
+    "name": "KZS-1U Container",
+    "category": "containers",
+    "rank": "common",
+    "capacity": 1,
+    "protection": 95,
+    "effectiveness": 180,
+    "stats": []
+  },
+  {
+    "id": "j33l",
+    "name": "KZS-2 Container",
+    "category": "containers",
+    "rank": "newbie",
+    "capacity": 2,
+    "protection": 95,
+    "effectiveness": 130,
+    "stats": []
+  },
+  {
+    "id": "o335",
+    "name": "KZS-2U Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 2,
+    "protection": 95,
+    "effectiveness": 145,
+    "stats": []
+  },
+  {
+    "id": "2vvv",
+    "name": "KZS-M Container",
+    "category": "containers",
+    "rank": "stalker",
+    "capacity": 3,
+    "protection": 95,
+    "effectiveness": 115,
+    "stats": []
+  },
+  {
+    "id": "1p2r",
+    "name": "KZS-MU Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 3,
+    "protection": 95,
+    "effectiveness": 132.5,
+    "stats": []
+  },
+  {
+    "id": "zjqk",
+    "name": "Marathon Bag",
+    "category": "backpacks",
+    "rank": "veteran",
+    "capacity": 3,
+    "protection": 78.5,
+    "effectiveness": 113,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.biological_accumulation",
+        "name": "Biological infection",
+        "min": -1.62,
+        "max": -1.62,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 37,
+        "max": 37,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 5.7,
+        "max": 5.7,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "wwjo",
+    "name": "MBSS Backpack",
+    "category": "backpacks",
+    "rank": "stalker",
+    "capacity": 4,
+    "protection": 60.000004,
+    "effectiveness": 83.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 48,
+        "max": 48,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "nv43",
+    "name": "NPA Backpack",
+    "category": "backpacks",
+    "rank": "stalker",
+    "capacity": 4,
+    "protection": 78.5,
+    "effectiveness": 101.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 28,
+        "max": 28,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "w42z",
+    "name": "Overton Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 100,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.heal_efficiency",
+        "name": "Healing effectiveness",
+        "min": 28.3,
+        "max": 28.3,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "p2k2",
+    "name": "Pouch Black Eagle B-33",
+    "category": "backpacks",
+    "rank": "stalker",
+    "capacity": 3,
+    "protection": 89.5,
+    "effectiveness": 95,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 28,
+        "max": 28,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 4.3,
+        "max": 4.3,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "nv63",
+    "name": "PROTECT 3B Waist Bag",
+    "category": "backpacks",
+    "rank": "stalker",
+    "capacity": 2,
+    "protection": 89.5,
+    "effectiveness": 110,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 24,
+        "max": 24,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 3.7,
+        "max": 3.7,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "51zo",
+    "name": "Saddlebag",
+    "category": "backpacks",
+    "rank": "veteran",
+    "capacity": 3,
+    "protection": 78.5,
+    "effectiveness": 113,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.biological_accumulation",
+        "name": "Biological infection",
+        "min": -1.62,
+        "max": -1.62,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 37,
+        "max": 37,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 5.7,
+        "max": 5.7,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "zq3n",
+    "name": "Secret Valley 35 Backpack",
+    "category": "backpacks",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 92.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 81,
+        "max": 81,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "0nok",
+    "name": "Sheaf Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 7,
+    "protection": 60.000004,
+    "effectiveness": 97,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.frost_accumulation",
+        "name": "Frost",
+        "min": 1,
+        "max": 1,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "2v9v",
+    "name": "Shiver Container",
+    "category": "containers",
+    "rank": "veteran",
+    "capacity": 5,
+    "protection": 75,
+    "effectiveness": 102.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.biological_accumulation",
+        "name": "Biological infection",
+        "min": 0.5,
+        "max": 0.5,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.thermal_accumulation",
+        "name": "Temperature",
+        "min": -1.875,
+        "max": -1.875,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "j3ml",
+    "name": "SMC Container",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 4,
+    "protection": 95,
+    "effectiveness": 120.00001,
+    "stats": []
+  },
+  {
+    "id": "glnp",
+    "name": "Soviet Travel Backpack",
+    "category": "backpacks",
+    "rank": "veteran",
+    "capacity": 5,
+    "protection": 60.000004,
+    "effectiveness": 90,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 73,
+        "max": 73,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "odq0",
+    "name": "Sports Bag",
+    "category": "backpacks",
+    "rank": "newbie",
+    "capacity": 2,
+    "protection": 89.5,
+    "effectiveness": 100,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 18,
+        "max": 18,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 2.7,
+        "max": 2.7,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "jmp6",
+    "name": "Transformer Bag",
+    "category": "backpacks",
+    "rank": "common",
+    "capacity": 1,
+    "protection": 89.5,
+    "effectiveness": 115,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 15,
+        "max": 15,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 2.4,
+        "max": 2.4,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "lny1",
+    "name": "Tri-Zip Assault Backpack",
+    "category": "backpacks",
+    "rank": "stalker",
+    "capacity": 5,
+    "protection": 60.000004,
+    "effectiveness": 78.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 56,
+        "max": 56,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "dkln",
+    "name": "Utility Vest ADR-WRBT",
+    "category": "backpacks",
+    "rank": "master",
+    "capacity": 4,
+    "protection": 89.5,
+    "effectiveness": 104.99999,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 40,
+        "max": 40,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 6.2,
+        "max": 6.2,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "vyqd",
+    "name": "Utility Vest Black Eagle Y-73",
+    "category": "backpacks",
+    "rank": "veteran",
+    "capacity": 3,
+    "protection": 89.5,
+    "effectiveness": 110,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 37,
+        "max": 37,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.speed_modifier",
+        "name": "Movement speed",
+        "min": 5.7,
+        "max": 5.7,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "512o",
+    "name": "ZIVCAS ArcticSafe-6",
+    "category": "containers",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 75,
+    "effectiveness": 102.5,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.frost_accumulation",
+        "name": "Frost",
+        "min": -2.5,
+        "max": -2.5,
+        "isPositive": false,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.psycho_accumulation",
+        "name": "Psyonics",
+        "min": 0.5,
+        "max": 0.5,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      }
+    ]
+  },
+  {
+    "id": "vyjd",
+    "name": "ZIVCAS Sisyphus-6",
+    "category": "backpacks",
+    "rank": "master",
+    "capacity": 6,
+    "protection": 60.000004,
+    "effectiveness": 93,
+    "stats": [
+      {
+        "key": "stalker.artefact_properties.factor.max_weight_bonus",
+        "name": "Carry weight",
+        "min": 40,
+        "max": 40,
+        "isPositive": true,
+        "isPercentage": false,
+        "origin": "containers"
+      },
+      {
+        "key": "stalker.artefact_properties.factor.stamina_bonus",
+        "name": "Stamina",
+        "min": 55,
+        "max": 55,
+        "isPositive": true,
+        "isPercentage": true,
+        "origin": "containers"
+      }
+    ]
+  }
+]
