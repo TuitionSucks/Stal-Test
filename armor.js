@@ -42,15 +42,21 @@ async function loadArmorDatabase() {
 }
 
 function armorStats(armor) {
-  return (armor?.stats || []).map(stat => ({
-    key: stat.key,
-    name: stat.name,
-    value: Number(stat.value),
-    isPercentage: Boolean(stat.isPercentage),
-    isPositive: Boolean(stat.isPositive),
-    special: false,
-    origin: "armor"
-  }));
+  // The core calculator treats fixed container/armor stats as min/max endpoints.
+  // Mirror each armor value into both fields so the existing summation engine can
+  // include armor without running it through artifact quality/Potential scaling.
+  return (armor?.stats || []).map(stat => {
+    const value = Number(stat.value);
+    return {
+      key: stat.key,
+      name: stat.name,
+      min: value,
+      max: value,
+      isPercentage: Boolean(stat.isPercentage),
+      isPositive: Boolean(stat.isPositive),
+      origin: "armor"
+    };
+  });
 }
 
 function injectArmorInterface() {
@@ -111,13 +117,14 @@ function injectArmorInterface() {
     .armor-meta{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:9px}
     .armor-meta span{display:grid;gap:1px;padding:8px 9px;border-radius:6px;background:var(--panel-2);border:1px solid var(--border-soft)}
     .armor-meta small{color:var(--muted);font-size:9px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em}
-    .armor-meta strong{font-size:11px;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .armor-meta strong{font-size:11px;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:capitalize}
     .results-column{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:14px;align-items:start}
     #finderResults,#loadoutResults{grid-column:1;grid-row:1}
     .total-stats-sheet{grid-column:2;grid-row:1;position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:hidden;display:flex;flex-direction:column;min-height:360px}
     .total-sheet-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
     .total-stats-meta{display:grid;gap:5px;margin-bottom:10px}
     .total-stats-meta span{display:flex;justify-content:space-between;gap:8px;padding:6px 8px;border-radius:6px;background:var(--panel-2);border:1px solid var(--border-soft);font-size:10px;color:var(--muted)}
+    .total-stats-meta em{font-style:normal}
     .total-stats-meta b{color:var(--text-dim);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
     .total-stats-body{overflow:auto;padding-right:3px;display:grid;gap:10px;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
     .total-stat-group{display:grid;gap:5px}
