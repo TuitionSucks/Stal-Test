@@ -3,77 +3,80 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Stalzone Artifact Calculator</title>
+  <title>Stalzone Artifact Loadout Calculator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="wrap">
-    <header class="hero">
-      <p class="eyebrow">STALZONE ARTIFACT CALCULATOR</p>
-      <h1>Artifact Calculator</h1>
-      <p class="lead">Full artifact list with quality, Potential, and additional-property scaling. Chilly remains our known-good reference artifact.</p>
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">STALZONE</p>
+        <h1>Artifact Loadout Calculator</h1>
+        <p class="lead">Build a full container loadout using exact artifact quality and exact Potential levels from +0 through +15.</p>
+      </div>
       <div class="database-line">
-        <span id="databaseStatus" class="status">Loading artifact database…</span>
+        <span id="databaseStatus" class="status">Loading database…</span>
         <span><strong id="artifactCount">0</strong> artifacts</span>
       </div>
     </header>
 
-    <section class="card">
-      <h2>Choose an artifact</h2>
-      <div class="artifact-picker">
-        <label>
-          Search
-          <input id="artifactSearch" type="search" placeholder="Try Chilly, Spiral, Bracelet…" autocomplete="off" />
-        </label>
-        <label>
-          Artifact
-          <select id="artifactSelect"></select>
-        </label>
-      </div>
-      <div class="meta-row">
-        <span>Class: <strong id="category">—</strong></span>
-        <span>Rarity: <strong id="rarity">—</strong></span>
-      </div>
-    </section>
+    <div class="app-grid">
+      <section class="left-column">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">Container</p>
+              <h2>Choose your container</h2>
+            </div>
+            <button id="clearLoadout" class="ghost-button" type="button">Clear loadout</button>
+          </div>
 
-    <section class="card controls">
-      <label>
-        Quality (%)
-        <input id="quality" type="number" min="85" max="190" step="0.1" value="135" />
-      </label>
-      <label>
-        Potential
-        <select id="potential"></select>
-      </label>
-    </section>
+          <label class="field">
+            <span>Container</span>
+            <select id="containerSelect"></select>
+          </label>
 
-    <section class="card">
-      <div class="section-title-row">
-        <div>
-          <h2>Additional properties</h2>
-          <p class="muted">+5 unlocks 1 slot, +10 unlocks 2, +15 unlocks 3. Properties cannot repeat.</p>
-        </div>
-        <span class="slot-pill">Unlocked: <strong id="slotCount">1</strong></span>
-      </div>
-      <div id="additionalOptions" class="checks"></div>
-      <p id="warning" class="warning"></p>
-    </section>
+          <div class="container-meta">
+            <span>Slots <strong id="containerCapacity">—</strong></span>
+            <span>Protection <strong id="containerProtection">—</strong></span>
+            <span>Effectiveness <strong id="containerEffectiveness">—</strong></span>
+          </div>
+        </article>
 
-    <section class="card">
-      <h2 id="artifactTitle">Loading…</h2>
-      <div id="stats" class="stats"></div>
-    </section>
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">Loadout</p>
+              <h2>Artifacts</h2>
+              <p class="muted">Each slot has its own quality, Potential, and additional properties.</p>
+            </div>
+            <span class="slot-counter"><strong id="filledSlots">0</strong>/<strong id="totalSlots">0</strong></span>
+          </div>
 
-    <section class="card small">
-      <h2>Formula safety check</h2>
-      <p id="tests">Running…</p>
-      <p class="muted">Standard artifact properties use the quality/Potential rules we verified. Harmful properties interpolate within the current rarity band. Unusual special-mechanic rows are shown but deliberately not run through the generic formula until we verify their individual rules.</p>
-    </section>
+          <div id="loadoutSlots" class="loadout-slots"></div>
+        </article>
 
-    <section class="card small source-note">
-      <h2>Data source</h2>
-      <p>The artifact list loads from a normalized public dataset built from EXBO's STALZONE database with supplemental Wiki-derived additional-property data. This lets us include the full list and the +5/+10/+15 property pools without manually entering every artifact.</p>
-    </section>
+        <article class="panel small-panel">
+          <p id="tests" class="muted">Running Chilly formula check…</p>
+        </article>
+      </section>
+
+      <aside class="right-column">
+        <article class="panel results-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">Build totals</p>
+              <h2 id="buildTitle">Empty loadout</h2>
+            </div>
+            <span id="buildRarityHint" class="status subtle">Exact levels enabled</span>
+          </div>
+
+          <div id="containerBonuses" class="bonus-strip"></div>
+          <div id="buildStats" class="build-stats"></div>
+          <p id="emptyBuildMessage" class="empty-message">Choose artifacts on the left to see the combined build here.</p>
+        </article>
+      </aside>
+    </div>
   </main>
 
   <script src="artifacts.js"></script>
