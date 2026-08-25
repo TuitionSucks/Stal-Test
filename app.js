@@ -1,18 +1,19 @@
 const ui = {
-  artifactSearch: document.getElementById("artifactSearch"),
-  artifactSelect: document.getElementById("artifactSelect"),
-  category: document.getElementById("category"),
-  quality: document.getElementById("quality"),
-  potential: document.getElementById("potential"),
-  rarity: document.getElementById("rarity"),
-  slotCount: document.getElementById("slotCount"),
-  additionalOptions: document.getElementById("additionalOptions"),
-  warning: document.getElementById("warning"),
-  artifactTitle: document.getElementById("artifactTitle"),
-  stats: document.getElementById("stats"),
-  tests: document.getElementById("tests"),
   databaseStatus: document.getElementById("databaseStatus"),
-  artifactCount: document.getElementById("artifactCount")
+  artifactCount: document.getElementById("artifactCount"),
+  containerSelect: document.getElementById("containerSelect"),
+  containerCapacity: document.getElementById("containerCapacity"),
+  containerProtection: document.getElementById("containerProtection"),
+  containerEffectiveness: document.getElementById("containerEffectiveness"),
+  clearLoadout: document.getElementById("clearLoadout"),
+  loadoutSlots: document.getElementById("loadoutSlots"),
+  filledSlots: document.getElementById("filledSlots"),
+  totalSlots: document.getElementById("totalSlots"),
+  buildTitle: document.getElementById("buildTitle"),
+  containerBonuses: document.getElementById("containerBonuses"),
+  buildStats: document.getElementById("buildStats"),
+  emptyBuildMessage: document.getElementById("emptyBuildMessage"),
+  tests: document.getElementById("tests")
 };
 
 const QUALITY_BANDS = [
@@ -25,26 +26,21 @@ const QUALITY_BANDS = [
   { name: "Unique", min: 175, max: 190 }
 ];
 
-const CATEGORY_NAMES = {
-  "artefact/biochemical": "Biochemical",
-  "artefact/electrophysical": "Electrophysical",
-  "artefact/gravity": "Gravity",
-  "artefact/other_arts": "Other",
-  "artefact/thermal": "Thermal"
-};
+const RADIATION = "stalker.artefact_properties.factor.radiation_accumulation";
+const BIOLOGICAL = "stalker.artefact_properties.factor.biological_accumulation";
+const PSYCHO = "stalker.artefact_properties.factor.psycho_accumulation";
+const THERMAL = "stalker.artefact_properties.factor.thermal_accumulation";
+const FROST = "stalker.artefact_properties.factor.frost_accumulation";
+const BLEEDING = "stalker.artefact_properties.factor.bleeding_accumulation";
+const BURNING = "stalker.artefact_properties.factor.combustion_accumulation";
+
+const ACCUMULATION_STATS = new Set([RADIATION, BIOLOGICAL, PSYCHO, THERMAL, FROST, BLEEDING, BURNING]);
+const CONTAINER_PROTECTABLE_STATS = new Set([RADIATION, BIOLOGICAL, PSYCHO, THERMAL, BLEEDING]);
 
 let artifacts = [];
-let filteredArtifacts = [];
-let currentArtifact = null;
-let selectedAdditionalKeys = new Set();
-
-for (let level = 0; level <= 15; level++) {
-  const option = document.createElement("option");
-  option.value = level;
-  option.textContent = `+${level}`;
-  if (level === 6) option.selected = true;
-  ui.potential.appendChild(option);
-}
+let containers = [];
+let currentContainer = null;
+let loadout = [];
 
 function potentialMultiplier(level) {
   return 1 + (0.02 * level);
@@ -58,7 +54,6 @@ function unlockedSlots(level) {
 }
 
 function qualityBand(quality) {
-  // At exact thresholds, use the higher rarity (130 => Rare, 145 => Exclusive, etc.).
   if (quality >= 175) return QUALITY_BANDS[6];
   if (quality >= 160) return QUALITY_BANDS[5];
   if (quality >= 145) return QUALITY_BANDS[4];
@@ -93,20 +88,41 @@ function interpolateHarmful(stat, quality) {
   return better + ((worse - better) * progress);
 }
 
-function calculateStat(stat, quality, potential) {
-  // Non-standard mechanic rows (for example Polyhedron trigger/reload rows) do not
-  // follow the ordinary artifact-property formula. Keep their Q100 endpoint visible
-  // rather than pretending they use the normal quality/potential rules.
+function calculateRawStat(stat, quality, potential) {
   if (!isStandardArtifactStat(stat)) {
     return { value: beneficialEndpoint(stat), special: true };
   }
 
   if (stat.isPositive) {
-    const value = beneficialEndpoint(stat) * (quality / 100) * potentialMultiplier(potential);
-    return { value, special: false };
+    return {
+      value: beneficialEndpoint(stat) * (quality / 100) * potentialMultiplier(potential),
+      special: false
+    };
   }
 
   return { value: interpolateHarmful(stat, quality), special: false };
+}
+
+function applyContainerEffects(stat, value, container, special = false) {
+  if (!container || stat.origin !== "artefact" || special) return value;
+
+  let finalValue = value;
+  const effectiveness = Number(container.effectiveness) || 100;
+  const protection = Number(container.protection) || 0;
+
+  if (stat.isPositive) {
+    if (ACCUMULATION_STATS.has(stat.key)) {
+      if (finalValue > 0) finalValue *= effectiveness / 100;
+    } else {
+      finalValue *= effectiveness / 100;
+    }
+  }
+
+  if (CONTAINER_PROTECTABLE_STATS.has(stat.key)) {
+    finalValue *= 1 - (protection / 100);
+  }
+
+  return finalValue;
 }
 
 function formatValue(value, isPercentage = false) {
@@ -115,198 +131,333 @@ function formatValue(value, isPercentage = false) {
   return `${sign}${normalized.toFixed(2)}${isPercentage ? "%" : ""}`;
 }
 
-function categoryLabel(category) {
-  return CATEGORY_NAMES[category] || category.replace("artefact/", "");
+function formatPercent(value) {
+  const rounded = Math.round(Number(value) * 10) / 10;
+  return `${Number.isInteger(rounded) ? rounded.toFixed(0) : rounded.toFixed(1)}%`;
 }
 
-function clampQuality() {
-  let quality = Number(ui.quality.value);
-  if (!Number.isFinite(quality)) quality = 100;
-  quality = Math.min(190, Math.max(85, quality));
-  ui.quality.value = quality;
-  return quality;
+function clampQuality(value) {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric)) return 100;
+  return Math.min(190, Math.max(85, numeric));
 }
 
-function additionalSelectionId(stat, index) {
+function newSlot() {
+  return {
+    artifactId: "",
+    quality: 135,
+    potential: 6,
+    additionalIds: new Set()
+  };
+}
+
+function resizeLoadout(capacity) {
+  const nextCapacity = Math.max(0, Number(capacity) || 0);
+  if (loadout.length > nextCapacity) loadout = loadout.slice(0, nextCapacity);
+  while (loadout.length < nextCapacity) loadout.push(newSlot());
+}
+
+function findArtifact(id) {
+  return artifacts.find((artifact) => artifact.id === id) || null;
+}
+
+function additionalId(stat, index) {
   return `${index}:${stat.key}`;
 }
 
-function renderAdditionalOptions() {
-  if (!currentArtifact) return;
-  const potential = Number(ui.potential.value);
-  const slots = unlockedSlots(potential);
-  ui.slotCount.textContent = slots;
-  ui.additionalOptions.innerHTML = "";
-
-  const additionals = currentArtifact.additionalStats || [];
-  if (additionals.length === 0) {
-    ui.additionalOptions.innerHTML = '<p class="muted">No additional-property data is available for this artifact.</p>';
-    return;
-  }
-
-  additionals.forEach((stat, index) => {
-    const id = additionalSelectionId(stat, index);
-    const label = document.createElement("label");
-    label.className = "check-card";
-    const checked = selectedAdditionalKeys.has(id);
-    const disabled = slots === 0 || (!checked && selectedAdditionalKeys.size >= slots);
-    label.innerHTML = `
-      <input type="checkbox" value="${id}" ${checked ? "checked" : ""} ${disabled ? "disabled" : ""} />
-      <span>
-        <strong>${stat.name}</strong>
-        <small>100% base: ${formatValue(beneficialEndpoint(stat), stat.isPercentage)}</small>
-      </span>
-    `;
-    const checkbox = label.querySelector("input");
-    checkbox.addEventListener("change", () => {
-      if (checkbox.checked) selectedAdditionalKeys.add(id);
-      else selectedAdditionalKeys.delete(id);
-      enforceSlotLimit();
-      render();
-    });
-    ui.additionalOptions.appendChild(label);
-  });
+function selectedAdditionalStats(artifact, slot) {
+  return (artifact.additionalStats || []).filter((stat, index) => slot.additionalIds.has(additionalId(stat, index)));
 }
 
-function enforceSlotLimit() {
-  const slots = unlockedSlots(Number(ui.potential.value));
-  if (selectedAdditionalKeys.size > slots) {
-    selectedAdditionalKeys = new Set([...selectedAdditionalKeys].slice(0, slots));
-    ui.warning.textContent = `Potential +${ui.potential.value} only unlocks ${slots} additional propert${slots === 1 ? "y" : "ies"}.`;
-  } else {
-    ui.warning.textContent = "";
-  }
-}
+function calculateArtifactForBuild(artifact, slot, container) {
+  const stats = [
+    ...(artifact.stats || []),
+    ...selectedAdditionalStats(artifact, slot)
+  ];
 
-function calculateArtifact(artifact, quality, potential) {
-  const rows = new Map();
-
-  (artifact.stats || []).forEach((stat) => {
-    const result = calculateStat(stat, quality, potential);
-    rows.set(stat.key, {
+  return stats.map((stat) => {
+    const raw = calculateRawStat(stat, slot.quality, slot.potential);
+    return {
       key: stat.key,
       name: stat.name,
-      value: result.value,
+      value: applyContainerEffects(stat, raw.value, container, raw.special),
       isPercentage: stat.isPercentage,
       isPositive: stat.isPositive,
-      special: result.special,
-      hasMain: true,
-      hasAdditional: false
-    });
+      special: raw.special,
+      origin: stat.origin
+    };
   });
+}
 
-  (artifact.additionalStats || []).forEach((stat, index) => {
-    const id = additionalSelectionId(stat, index);
-    if (!selectedAdditionalKeys.has(id)) return;
-    const result = calculateStat(stat, quality, potential);
-    const existing = rows.get(stat.key);
-    if (existing && !existing.special && !result.special) {
-      existing.value += result.value;
-      existing.hasAdditional = true;
-    } else if (existing) {
-      existing.hasAdditional = true;
-    } else {
-      rows.set(stat.key, {
-        key: stat.key,
-        name: stat.name,
-        value: result.value,
-        isPercentage: stat.isPercentage,
-        isPositive: stat.isPositive,
-        special: result.special,
-        hasMain: false,
-        hasAdditional: true
-      });
+function calculateContainerStats(container) {
+  return (container?.stats || []).map((stat) => ({
+    key: stat.key,
+    name: stat.name,
+    value: Number(stat.max),
+    isPercentage: stat.isPercentage,
+    isPositive: stat.isPositive,
+    special: false,
+    origin: stat.origin
+  }));
+}
+
+function sumBuildStats(container) {
+  const summed = new Map();
+  const allStats = [
+    ...calculateContainerStats(container),
+    ...loadout.flatMap((slot) => {
+      const artifact = findArtifact(slot.artifactId);
+      return artifact ? calculateArtifactForBuild(artifact, slot, container) : [];
+    })
+  ];
+
+  allStats.forEach((stat) => {
+    const existing = summed.get(stat.key);
+    if (!existing) {
+      summed.set(stat.key, { ...stat, sources: 1 });
+      return;
     }
+    existing.value += stat.value;
+    existing.sources += 1;
+    existing.special = existing.special || stat.special;
   });
 
-  return [...rows.values()];
+  return [...summed.values()].sort((a, b) => {
+    if (a.isPositive !== b.isPositive) return a.isPositive ? -1 : 1;
+    return a.name.localeCompare(b.name);
+  });
 }
 
-function renderStats() {
-  if (!currentArtifact) return;
-  const quality = clampQuality();
-  const potential = Number(ui.potential.value);
-  const band = qualityBand(quality);
-  ui.rarity.textContent = band.name;
-  ui.category.textContent = categoryLabel(currentArtifact.category);
-  ui.artifactTitle.textContent = `${currentArtifact.name} — ${quality}% +${potential}`;
+function artifactOptions(selectedId) {
+  const options = ["<option value=\"\">Empty slot</option>"];
+  artifacts.forEach((artifact) => {
+    const selected = artifact.id === selectedId ? " selected" : "";
+    options.push(`<option value="${artifact.id}"${selected}>${escapeHtml(artifact.name)}</option>`);
+  });
+  return options.join("");
+}
 
-  const rows = calculateArtifact(currentArtifact, quality, potential);
-  ui.stats.innerHTML = "";
+function potentialOptions(selectedLevel) {
+  const options = [];
+  for (let level = 0; level <= 15; level++) {
+    options.push(`<option value="${level}"${level === selectedLevel ? " selected" : ""}>+${level}</option>`);
+  }
+  return options.join("");
+}
 
-  rows.forEach((row) => {
-    const div = document.createElement("div");
-    div.className = `stat-row ${row.isPositive ? "positive" : "negative"}`;
-    const note = row.special
-      ? "Special mechanic — shown at its base endpoint; generic scaling intentionally disabled"
-      : row.hasAdditional
-        ? "Main + selected additional"
-        : row.hasMain
-          ? (row.isPositive ? "Main property" : `${band.name} downside interpolation`)
-          : "Selected additional";
-    div.innerHTML = `
-      <span>
-        <strong>${row.name}</strong>
-        <small>${note}</small>
-      </span>
-      <b>${formatValue(row.value, row.isPercentage)}</b>
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function renderAdditionalEditor(slotIndex, artifact, slot, container) {
+  const additionals = artifact.additionalStats || [];
+  const maxSlots = unlockedSlots(slot.potential);
+  if (!additionals.length) {
+    return '<p class="slot-note">No additional-property data available.</p>';
+  }
+  if (maxSlots === 0) {
+    return '<p class="slot-note">Additional properties unlock at +5.</p>';
+  }
+
+  return `
+    <div class="additional-heading">
+      <span>Additional properties</span>
+      <span>${slot.additionalIds.size}/${maxSlots}</span>
+    </div>
+    <div class="additional-grid">
+      ${additionals.map((stat, index) => {
+        const id = additionalId(stat, index);
+        const checked = slot.additionalIds.has(id);
+        const disabled = !checked && slot.additionalIds.size >= maxSlots;
+        const previewRaw = calculateRawStat(stat, slot.quality, slot.potential);
+        const preview = applyContainerEffects(stat, previewRaw.value, container, previewRaw.special);
+        return `
+          <label class="additional-option ${disabled ? "disabled" : ""}">
+            <input type="checkbox" data-action="additional" data-slot="${slotIndex}" data-additional="${escapeHtml(id)}" ${checked ? "checked" : ""} ${disabled ? "disabled" : ""} />
+            <span>${escapeHtml(stat.name)}</span>
+            <b>${formatValue(preview, stat.isPercentage)}</b>
+          </label>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function renderLoadoutSlots() {
+  ui.loadoutSlots.innerHTML = loadout.map((slot, index) => {
+    const artifact = findArtifact(slot.artifactId);
+    const rarity = qualityBand(slot.quality).name;
+    const title = artifact ? artifact.name : `Slot ${index + 1}`;
+
+    return `
+      <article class="artifact-slot ${artifact ? "filled" : "empty"}">
+        <div class="slot-topline">
+          <div>
+            <span class="slot-label">Slot ${index + 1}</span>
+            <h3>${escapeHtml(title)}</h3>
+          </div>
+          ${artifact ? `<span class="rarity-pill rarity-${rarity.toLowerCase()}">${rarity}</span>` : ""}
+        </div>
+
+        <label class="field compact-field">
+          <span>Artifact</span>
+          <select data-action="artifact" data-slot="${index}">
+            ${artifactOptions(slot.artifactId)}
+          </select>
+        </label>
+
+        <div class="slot-controls">
+          <label class="field compact-field">
+            <span>Quality</span>
+            <div class="quality-control">
+              <input data-action="quality" data-slot="${index}" type="number" min="85" max="190" step="0.1" value="${slot.quality}" ${artifact ? "" : "disabled"} />
+              <span>%</span>
+            </div>
+          </label>
+          <label class="field compact-field">
+            <span>Potential</span>
+            <select data-action="potential" data-slot="${index}" ${artifact ? "" : "disabled"}>
+              ${potentialOptions(slot.potential)}
+            </select>
+          </label>
+        </div>
+
+        ${artifact ? `<div class="additional-editor">${renderAdditionalEditor(index, artifact, slot, currentContainer)}</div>` : ""}
+      </article>
     `;
-    ui.stats.appendChild(div);
-  });
+  }).join("");
+
+  const filled = loadout.filter((slot) => slot.artifactId).length;
+  ui.filledSlots.textContent = filled;
+  ui.totalSlots.textContent = loadout.length;
 }
 
-function render() {
-  enforceSlotLimit();
-  renderAdditionalOptions();
-  renderStats();
+function renderContainer() {
+  if (!currentContainer) return;
+  ui.containerCapacity.textContent = currentContainer.capacity;
+  ui.containerProtection.textContent = formatPercent(currentContainer.protection);
+  ui.containerEffectiveness.textContent = formatPercent(currentContainer.effectiveness);
+
+  const bonuses = calculateContainerStats(currentContainer);
+  ui.containerBonuses.innerHTML = bonuses.length
+    ? bonuses.map((stat) => `<span><small>${escapeHtml(stat.name)}</small><b>${formatValue(stat.value, stat.isPercentage)}</b></span>`).join("")
+    : '<span class="no-bonus">No fixed container stat bonuses</span>';
 }
 
-function sortArtifacts(list) {
-  return [...list].sort((a, b) => a.name.localeCompare(b.name));
+function renderBuildStats() {
+  const filled = loadout.filter((slot) => slot.artifactId).length;
+  const stats = sumBuildStats(currentContainer);
+  ui.buildTitle.textContent = filled
+    ? `${currentContainer?.name || "Container"} · ${filled} artifact${filled === 1 ? "" : "s"}`
+    : "Empty loadout";
+
+  ui.emptyBuildMessage.hidden = filled > 0 || stats.length > 0;
+  ui.buildStats.innerHTML = stats.map((stat) => `
+    <div class="build-stat ${stat.isPositive ? "positive" : "negative"}">
+      <div>
+        <strong>${escapeHtml(stat.name)}</strong>
+        ${stat.special ? '<small>Special mechanic shown at verified base endpoint</small>' : ""}
+      </div>
+      <b>${formatValue(stat.value, stat.isPercentage)}</b>
+    </div>
+  `).join("");
 }
 
-function populateArtifactSelect(preferredId = null) {
-  const previous = preferredId || currentArtifact?.id || ui.artifactSelect.value;
-  ui.artifactSelect.innerHTML = "";
-
-  filteredArtifacts.forEach((artifact) => {
-    const option = document.createElement("option");
-    option.value = artifact.id;
-    option.textContent = `${artifact.name} — ${categoryLabel(artifact.category)}`;
-    ui.artifactSelect.appendChild(option);
-  });
-
-  const preferredExists = filteredArtifacts.some(a => a.id === previous);
-  if (preferredExists) ui.artifactSelect.value = previous;
-
-  currentArtifact = filteredArtifacts.find(a => a.id === ui.artifactSelect.value) || filteredArtifacts[0] || null;
-  if (currentArtifact) ui.artifactSelect.value = currentArtifact.id;
-  selectedAdditionalKeys.clear();
-  render();
+function renderAll() {
+  renderContainer();
+  renderLoadoutSlots();
+  renderBuildStats();
 }
 
-function filterArtifacts() {
-  const term = ui.artifactSearch.value.trim().toLowerCase();
-  filteredArtifacts = artifacts.filter((artifact) => {
-    const haystack = `${artifact.name} ${categoryLabel(artifact.category)}`.toLowerCase();
-    return haystack.includes(term);
-  });
-  populateArtifactSelect();
+function populateContainers(preferredId = "p92d") {
+  ui.containerSelect.innerHTML = containers.map((container) => (
+    `<option value="${container.id}"${container.id === preferredId ? " selected" : ""}>${escapeHtml(container.name)}</option>`
+  )).join("");
+
+  currentContainer = containers.find((container) => container.id === ui.containerSelect.value)
+    || containers[0]
+    || null;
+
+  if (currentContainer) {
+    ui.containerSelect.value = currentContainer.id;
+    resizeLoadout(currentContainer.capacity);
+  }
 }
+
+function normalizeAdditionalLimit(slot) {
+  const limit = unlockedSlots(slot.potential);
+  if (slot.additionalIds.size > limit) {
+    slot.additionalIds = new Set([...slot.additionalIds].slice(0, limit));
+  }
+}
+
+ui.containerSelect.addEventListener("change", () => {
+  currentContainer = containers.find((container) => container.id === ui.containerSelect.value) || null;
+  resizeLoadout(currentContainer?.capacity || 0);
+  renderAll();
+});
+
+ui.clearLoadout.addEventListener("click", () => {
+  loadout = loadout.map(() => newSlot());
+  renderAll();
+});
+
+ui.loadoutSlots.addEventListener("change", (event) => {
+  const target = event.target;
+  const action = target.dataset.action;
+  const index = Number(target.dataset.slot);
+  const slot = loadout[index];
+  if (!slot) return;
+
+  if (action === "artifact") {
+    slot.artifactId = target.value;
+    slot.additionalIds.clear();
+  } else if (action === "quality") {
+    slot.quality = clampQuality(target.value);
+  } else if (action === "potential") {
+    slot.potential = Math.max(0, Math.min(15, Number(target.value) || 0));
+    normalizeAdditionalLimit(slot);
+  } else if (action === "additional") {
+    const id = target.dataset.additional;
+    if (target.checked) {
+      const limit = unlockedSlots(slot.potential);
+      if (slot.additionalIds.size < limit) slot.additionalIds.add(id);
+    } else {
+      slot.additionalIds.delete(id);
+    }
+  }
+
+  renderAll();
+});
+
+ui.loadoutSlots.addEventListener("input", (event) => {
+  const target = event.target;
+  if (target.dataset.action !== "quality") return;
+  const slot = loadout[Number(target.dataset.slot)];
+  if (!slot) return;
+  const numeric = Number(target.value);
+  if (Number.isFinite(numeric) && numeric >= 85 && numeric <= 190) {
+    slot.quality = numeric;
+    renderBuildStats();
+  }
+});
 
 function runKnownTests() {
-  const chilly = artifacts.find(a => a.id === "ljn2" || a.name === "Chilly");
+  const chilly = artifacts.find((artifact) => artifact.id === "ljn2" || artifact.name === "Chilly");
   if (!chilly) {
     ui.tests.textContent = "⚠ Chilly was not found, so the known-value checks could not run.";
     ui.tests.className = "fail";
     return;
   }
 
-  const oldSelection = selectedAdditionalKeys;
-  selectedAdditionalKeys = new Set();
   const find = (quality, potential, name) => {
-    const row = calculateArtifact(chilly, quality, potential).find(x => x.name === name);
-    return Number(row.value.toFixed(2));
+    const stat = (chilly.stats || []).find((row) => row.name === name);
+    return stat ? Number(calculateRawStat(stat, quality, potential).value.toFixed(2)) : NaN;
   };
 
   const checks = [
@@ -319,34 +470,29 @@ function runKnownTests() {
     [find(135, 6, "Frost"), 0.90],
     [find(135, 6, "Burning"), -0.60]
   ];
-  selectedAdditionalKeys = oldSelection;
 
   const passed = checks.every(([actual, expected]) => actual === expected);
   ui.tests.textContent = passed
-    ? "✓ Chilly checks passed: 143% +8 and 135% +6 still match our verified values."
-    : "⚠ A Chilly formula check failed. Do not trust new calculations until this is corrected.";
+    ? "✓ Chilly formula checks still pass at 143% +8 and 135% +6."
+    : "⚠ A Chilly formula check failed. New build totals should not be trusted until corrected.";
   ui.tests.className = passed ? "pass" : "fail";
 }
 
-ui.artifactSearch.addEventListener("input", filterArtifacts);
-ui.artifactSelect.addEventListener("change", () => {
-  currentArtifact = artifacts.find(a => a.id === ui.artifactSelect.value) || null;
-  selectedAdditionalKeys.clear();
-  render();
-});
-ui.quality.addEventListener("input", renderStats);
-ui.potential.addEventListener("change", render);
-
 (async function init() {
-  ui.databaseStatus.textContent = "Loading artifact database…";
-  const loaded = await loadArtifactDatabase();
-  artifacts = sortArtifacts(loaded.artifacts);
-  filteredArtifacts = artifacts;
+  ui.databaseStatus.textContent = "Loading database…";
+  const loaded = await loadGameDatabase();
+  artifacts = [...loaded.artifacts].sort((a, b) => a.name.localeCompare(b.name));
+  containers = [...loaded.containers].sort((a, b) => a.name.localeCompare(b.name));
+
   ui.artifactCount.textContent = artifacts.length;
   ui.databaseStatus.textContent = loaded.source === "live"
-    ? "Full normalized artifact database loaded"
-    : "Database fetch failed — Chilly fallback loaded";
+    ? "Artifact + container database loaded"
+    : loaded.source === "partial"
+      ? "Database partially loaded"
+      : "Fallback data loaded";
   ui.databaseStatus.className = loaded.source === "live" ? "status live" : "status fallback";
-  populateArtifactSelect("ljn2");
+
+  populateContainers("p92d");
+  renderAll();
   runKnownTests();
 })();
