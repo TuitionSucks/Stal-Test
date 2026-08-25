@@ -1,20 +1,23 @@
 // Group equipment selectors by game rank/rarity while keeping item labels name-only.
 // Loaded after the UI/color extensions so it can reuse their color helpers.
 
+const ITEM_RANK_ALIASES = {
+  ordinary: 'common',
+  novice: 'newbie',
+  unusual: 'uncommon',
+  exceptional: 'exclusive'
+};
+
 const ITEM_RANK_ORDER = [
   'common',
-  'ordinary',
   'newbie',
-  'novice',
   'uncommon',
-  'unusual',
   'stalker',
   'special',
   'veteran',
   'rare',
   'master',
   'exclusive',
-  'exceptional',
   'legend',
   'legendary',
   'unique'
@@ -22,30 +25,31 @@ const ITEM_RANK_ORDER = [
 
 const ITEM_RANK_LABELS = {
   common: 'Common',
-  ordinary: 'Common',
   newbie: 'Newbie',
-  novice: 'Newbie',
   uncommon: 'Uncommon',
-  unusual: 'Uncommon',
   stalker: 'Stalker',
   special: 'Special',
   veteran: 'Veteran',
   rare: 'Rare',
   master: 'Master',
   exclusive: 'Exclusive',
-  exceptional: 'Exclusive',
   legend: 'Legend',
   legendary: 'Legendary',
   unique: 'Unique'
 };
 
-function itemRankKey(value = '') {
+function rawItemRankKey(value = '') {
   if (typeof normalizedRank === 'function') return normalizedRank(value) || 'common';
   return String(value)
     .toLowerCase()
     .replace(/^rarity\./, '')
     .replace(/^rank_/, '')
     .replace(/[^a-z0-9_-]/g, '') || 'common';
+}
+
+function itemRankKey(value = '') {
+  const raw = rawItemRankKey(value);
+  return ITEM_RANK_ALIASES[raw] || raw;
 }
 
 function itemRankIndex(value) {
@@ -64,8 +68,10 @@ function groupItemsByRank(items, rankGetter) {
   for (const item of items || []) {
     const rawRank = rankGetter(item) || 'common';
     const key = itemRankKey(rawRank);
-    if (!groups.has(key)) groups.set(key, { key, rawRank, items: [] });
-    groups.get(key).items.push(item);
+    if (!groups.has(key)) groups.set(key, { key, rawRanks: [], items: [] });
+    const group = groups.get(key);
+    group.rawRanks.push(rawRank);
+    group.items.push(item);
   }
   return [...groups.values()]
     .sort((a, b) => itemRankIndex(a.key) - itemRankIndex(b.key) || itemRankLabel(a.key).localeCompare(itemRankLabel(b.key)))
@@ -81,7 +87,8 @@ function groupedOptionsHtml(items, rankGetter, selectedValue = '', emptyLabel = 
   return first + groups.map(group => {
     const options = group.items.map(item => {
       const selected = item.id === selectedValue ? ' selected' : '';
-      const color = typeof itemColor === 'function' ? itemColor(group.rawRank) : '';
+      const rankValue = rankGetter(item) || group.key;
+      const color = typeof itemColor === 'function' ? itemColor(rankValue) : '';
       const style = color ? ` style="color:${color}"` : '';
       return `<option value="${escapeHtml(item.id)}"${selected}${style}>${escapeHtml(item.name)}</option>`;
     }).join('');
@@ -117,7 +124,7 @@ if (typeof populateArmorSelect === 'function') {
   };
 }
 
-// Artifacts keep name-only labels, but are grouped by the rarity metadata in the data feed.
+// Artifacts keep name-only labels, but are grouped by rarity metadata from the data feed.
 // Exact quality/rank for the equipped artifact is still controlled independently per slot.
 artifactOptions = function artifactOptionsGroupedByRank(selectedId) {
   return groupedOptionsHtml(artifacts, artifact => artifact.rarity, selectedId, 'Empty slot');
