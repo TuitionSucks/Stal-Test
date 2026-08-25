@@ -1,25 +1,49 @@
-const artifact = ARTIFACTS.chilly;
+const ui = {
+  artifactSearch: document.getElementById("artifactSearch"),
+  artifactSelect: document.getElementById("artifactSelect"),
+  category: document.getElementById("category"),
+  quality: document.getElementById("quality"),
+  potential: document.getElementById("potential"),
+  rarity: document.getElementById("rarity"),
+  slotCount: document.getElementById("slotCount"),
+  additionalOptions: document.getElementById("additionalOptions"),
+  warning: document.getElementById("warning"),
+  artifactTitle: document.getElementById("artifactTitle"),
+  stats: document.getElementById("stats"),
+  tests: document.getElementById("tests"),
+  databaseStatus: document.getElementById("databaseStatus"),
+  artifactCount: document.getElementById("artifactCount")
+};
 
-const qualityInput = document.getElementById("quality");
-const potentialSelect = document.getElementById("potential");
-const slotCountEl = document.getElementById("slotCount");
-const warningEl = document.getElementById("warning");
-const artifactTitle = document.getElementById("artifactTitle");
-const vitalityEl = document.getElementById("vitality");
-const temperatureEl = document.getElementById("temperature");
-const frostEl = document.getElementById("frost");
-const burningEl = document.getElementById("burning");
-const explosionEl = document.getElementById("explosion");
-const explosionRow = document.getElementById("explosionRow");
-const testsEl = document.getElementById("tests");
-const checkboxes = [...document.querySelectorAll('.checks input[type="checkbox"]')];
+const QUALITY_BANDS = [
+  { name: "Common", min: 85, max: 100 },
+  { name: "Uncommon", min: 100, max: 115 },
+  { name: "Special", min: 115, max: 130 },
+  { name: "Rare", min: 130, max: 145 },
+  { name: "Exclusive", min: 145, max: 160 },
+  { name: "Legendary", min: 160, max: 175 },
+  { name: "Unique", min: 175, max: 190 }
+];
+
+const CATEGORY_NAMES = {
+  "artefact/biochemical": "Biochemical",
+  "artefact/electrophysical": "Electrophysical",
+  "artefact/gravity": "Gravity",
+  "artefact/other_arts": "Other",
+  "artefact/thermal": "Thermal"
+};
+
+let artifacts = [];
+let filteredArtifacts = [];
+let currentArtifact = null;
+let selectedAdditionalKeys = new Set();
 
 for (let level = 0; level <= 15; level++) {
   const option = document.createElement("option");
   option.value = level;
   option.textContent = `+${level}`;
   if (level === 6) option.selected = true;
-  potentialSelect.appendChild(option);
+  ui.potential.appendChild(option);
 }
 
 function potentialMultiplier(level) {
@@ -33,139 +57,296 @@ function unlockedSlots(level) {
   return 0;
 }
 
-function frostAtQuality(quality) {
-  const { qualityMin, qualityMax, valueAtMin, valueAtMax } = artifact.frost;
-  const progress = (quality - qualityMin) / (qualityMax - qualityMin);
-  return valueAtMin + progress * (valueAtMax - valueAtMin);
+function qualityBand(quality) {
+  // At exact thresholds, use the higher rarity (130 => Rare, 145 => Exclusive, etc.).
+  if (quality >= 175) return QUALITY_BANDS[6];
+  if (quality >= 160) return QUALITY_BANDS[5];
+  if (quality >= 145) return QUALITY_BANDS[4];
+  if (quality >= 130) return QUALITY_BANDS[3];
+  if (quality >= 115) return QUALITY_BANDS[2];
+  if (quality >= 100) return QUALITY_BANDS[1];
+  return QUALITY_BANDS[0];
 }
 
-function scaled(base, quality, potential) {
-  return base * (quality / 100) * potentialMultiplier(potential);
+function isStandardArtifactStat(stat) {
+  return stat.key?.startsWith("stalker.artefact_properties.factor.");
 }
 
-function formatSigned(value, suffix = "") {
-  const rounded = value.toFixed(2);
-  const sign = value >= 0 ? "+" : "";
-  return `${sign}${rounded}${suffix}`;
+function beneficialEndpoint(stat) {
+  if (stat.min < 0 && stat.max <= 0) return Math.min(stat.min, stat.max);
+  return Math.max(stat.min, stat.max);
 }
 
-function getSelectedAdditionals() {
-  return checkboxes.filter(cb => cb.checked).map(cb => cb.value);
+function harmfulEndpoints(stat) {
+  const bothNegative = stat.min < 0 && stat.max <= 0;
+  if (bothNegative) {
+    return { better: Math.max(stat.min, stat.max), worse: Math.min(stat.min, stat.max) };
+  }
+  return { better: Math.min(stat.min, stat.max), worse: Math.max(stat.min, stat.max) };
 }
 
-function enforceSlots(changedCheckbox = null) {
-  const level = Number(potentialSelect.value);
-  const maxSlots = unlockedSlots(level);
-  let selected = getSelectedAdditionals();
+function interpolateHarmful(stat, quality) {
+  const band = qualityBand(quality);
+  const span = band.max - band.min;
+  const progress = span === 0 ? 0 : Math.max(0, Math.min(1, (quality - band.min) / span));
+  const { better, worse } = harmfulEndpoints(stat);
+  return better + ((worse - better) * progress);
+}
 
-  if (selected.length > maxSlots && changedCheckbox?.checked) {
-    changedCheckbox.checked = false;
-    selected = getSelectedAdditionals();
-    warningEl.textContent = `Only ${maxSlots} additional propert${maxSlots === 1 ? "y is" : "ies are"} unlocked at +${level}.`;
-  } else {
-    warningEl.textContent = "";
+function calculateStat(stat, quality, potential) {
+  // Non-standard mechanic rows (for example Polyhedron trigger/reload rows) do not
+  // follow the ordinary artifact-property formula. Keep their Q100 endpoint visible
+  // rather than pretending they use the normal quality/potential rules.
+  if (!isStandardArtifactStat(stat)) {
+    return { value: beneficialEndpoint(stat), special: true };
   }
 
-  slotCountEl.textContent = maxSlots;
+  if (stat.isPositive) {
+    const value = beneficialEndpoint(stat) * (quality / 100) * potentialMultiplier(potential);
+    return { value, special: false };
+  }
 
-  checkboxes.forEach(cb => {
-    cb.disabled = !cb.checked && selected.length >= maxSlots;
+  return { value: interpolateHarmful(stat, quality), special: false };
+}
+
+function formatValue(value, isPercentage = false) {
+  const normalized = Math.abs(value) < 0.0005 ? 0 : value;
+  const sign = normalized >= 0 ? "+" : "";
+  return `${sign}${normalized.toFixed(2)}${isPercentage ? "%" : ""}`;
+}
+
+function categoryLabel(category) {
+  return CATEGORY_NAMES[category] || category.replace("artefact/", "");
+}
+
+function clampQuality() {
+  let quality = Number(ui.quality.value);
+  if (!Number.isFinite(quality)) quality = 100;
+  quality = Math.min(190, Math.max(85, quality));
+  ui.quality.value = quality;
+  return quality;
+}
+
+function additionalSelectionId(stat, index) {
+  return `${index}:${stat.key}`;
+}
+
+function renderAdditionalOptions() {
+  if (!currentArtifact) return;
+  const potential = Number(ui.potential.value);
+  const slots = unlockedSlots(potential);
+  ui.slotCount.textContent = slots;
+  ui.additionalOptions.innerHTML = "";
+
+  const additionals = currentArtifact.additionalStats || [];
+  if (additionals.length === 0) {
+    ui.additionalOptions.innerHTML = '<p class="muted">No additional-property data is available for this artifact.</p>';
+    return;
+  }
+
+  additionals.forEach((stat, index) => {
+    const id = additionalSelectionId(stat, index);
+    const label = document.createElement("label");
+    label.className = "check-card";
+    const checked = selectedAdditionalKeys.has(id);
+    const disabled = slots === 0 || (!checked && selectedAdditionalKeys.size >= slots);
+    label.innerHTML = `
+      <input type="checkbox" value="${id}" ${checked ? "checked" : ""} ${disabled ? "disabled" : ""} />
+      <span>
+        <strong>${stat.name}</strong>
+        <small>100% base: ${formatValue(beneficialEndpoint(stat), stat.isPercentage)}</small>
+      </span>
+    `;
+    const checkbox = label.querySelector("input");
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) selectedAdditionalKeys.add(id);
+      else selectedAdditionalKeys.delete(id);
+      enforceSlotLimit();
+      render();
+    });
+    ui.additionalOptions.appendChild(label);
   });
 }
 
-function calculate(quality, potential, selected = []) {
-  const mainVitality = scaled(artifact.main.vitality, quality, potential);
-  const mainTemperature = scaled(artifact.main.temperature, quality, potential);
-  const mainBurning = scaled(artifact.main.burning, quality, potential);
-  const frost = frostAtQuality(quality);
+function enforceSlotLimit() {
+  const slots = unlockedSlots(Number(ui.potential.value));
+  if (selectedAdditionalKeys.size > slots) {
+    selectedAdditionalKeys = new Set([...selectedAdditionalKeys].slice(0, slots));
+    ui.warning.textContent = `Potential +${ui.potential.value} only unlocks ${slots} additional propert${slots === 1 ? "y" : "ies"}.`;
+  } else {
+    ui.warning.textContent = "";
+  }
+}
 
-  const additionalVitality = selected.includes("vitality")
-    ? scaled(artifact.additional.vitality, quality, potential)
-    : 0;
-  const additionalBurning = selected.includes("burning")
-    ? scaled(artifact.additional.burning, quality, potential)
-    : 0;
-  const explosionProtection = selected.includes("explosionProtection")
-    ? scaled(artifact.additional.explosionProtection, quality, potential)
-    : 0;
+function calculateArtifact(artifact, quality, potential) {
+  const rows = new Map();
 
-  return {
-    vitality: mainVitality + additionalVitality,
-    temperature: mainTemperature,
-    frost,
-    burning: mainBurning + additionalBurning,
-    explosionProtection
-  };
+  (artifact.stats || []).forEach((stat) => {
+    const result = calculateStat(stat, quality, potential);
+    rows.set(stat.key, {
+      key: stat.key,
+      name: stat.name,
+      value: result.value,
+      isPercentage: stat.isPercentage,
+      isPositive: stat.isPositive,
+      special: result.special,
+      hasMain: true,
+      hasAdditional: false
+    });
+  });
+
+  (artifact.additionalStats || []).forEach((stat, index) => {
+    const id = additionalSelectionId(stat, index);
+    if (!selectedAdditionalKeys.has(id)) return;
+    const result = calculateStat(stat, quality, potential);
+    const existing = rows.get(stat.key);
+    if (existing && !existing.special && !result.special) {
+      existing.value += result.value;
+      existing.hasAdditional = true;
+    } else if (existing) {
+      existing.hasAdditional = true;
+    } else {
+      rows.set(stat.key, {
+        key: stat.key,
+        name: stat.name,
+        value: result.value,
+        isPercentage: stat.isPercentage,
+        isPositive: stat.isPositive,
+        special: result.special,
+        hasMain: false,
+        hasAdditional: true
+      });
+    }
+  });
+
+  return [...rows.values()];
+}
+
+function renderStats() {
+  if (!currentArtifact) return;
+  const quality = clampQuality();
+  const potential = Number(ui.potential.value);
+  const band = qualityBand(quality);
+  ui.rarity.textContent = band.name;
+  ui.category.textContent = categoryLabel(currentArtifact.category);
+  ui.artifactTitle.textContent = `${currentArtifact.name} — ${quality}% +${potential}`;
+
+  const rows = calculateArtifact(currentArtifact, quality, potential);
+  ui.stats.innerHTML = "";
+
+  rows.forEach((row) => {
+    const div = document.createElement("div");
+    div.className = `stat-row ${row.isPositive ? "positive" : "negative"}`;
+    const note = row.special
+      ? "Special mechanic — shown at its base endpoint; generic scaling intentionally disabled"
+      : row.hasAdditional
+        ? "Main + selected additional"
+        : row.hasMain
+          ? (row.isPositive ? "Main property" : `${band.name} downside interpolation`)
+          : "Selected additional";
+    div.innerHTML = `
+      <span>
+        <strong>${row.name}</strong>
+        <small>${note}</small>
+      </span>
+      <b>${formatValue(row.value, row.isPercentage)}</b>
+    `;
+    ui.stats.appendChild(div);
+  });
 }
 
 function render() {
-  let quality = Number(qualityInput.value);
-  const min = artifact.verifiedQualityBand.min;
-  const max = artifact.verifiedQualityBand.max;
+  enforceSlotLimit();
+  renderAdditionalOptions();
+  renderStats();
+}
 
-  if (!Number.isFinite(quality)) quality = min;
-  quality = Math.min(max, Math.max(min, quality));
-  qualityInput.value = quality;
+function sortArtifacts(list) {
+  return [...list].sort((a, b) => a.name.localeCompare(b.name));
+}
 
-  const potential = Number(potentialSelect.value);
-  enforceSlots();
-  const selected = getSelectedAdditionals();
-  const result = calculate(quality, potential, selected);
+function populateArtifactSelect(preferredId = null) {
+  const previous = preferredId || currentArtifact?.id || ui.artifactSelect.value;
+  ui.artifactSelect.innerHTML = "";
 
-  artifactTitle.textContent = `${artifact.name} — ${quality}% +${potential}`;
-  vitalityEl.textContent = formatSigned(result.vitality, "%");
-  temperatureEl.textContent = formatSigned(result.temperature);
-  frostEl.textContent = formatSigned(result.frost);
-  burningEl.textContent = formatSigned(result.burning);
+  filteredArtifacts.forEach((artifact) => {
+    const option = document.createElement("option");
+    option.value = artifact.id;
+    option.textContent = `${artifact.name} — ${categoryLabel(artifact.category)}`;
+    ui.artifactSelect.appendChild(option);
+  });
 
-  const hasExplosion = selected.includes("explosionProtection");
-  explosionRow.classList.toggle("hidden", !hasExplosion);
-  explosionEl.textContent = formatSigned(result.explosionProtection);
+  const preferredExists = filteredArtifacts.some(a => a.id === previous);
+  if (preferredExists) ui.artifactSelect.value = previous;
+
+  currentArtifact = filteredArtifacts.find(a => a.id === ui.artifactSelect.value) || filteredArtifacts[0] || null;
+  if (currentArtifact) ui.artifactSelect.value = currentArtifact.id;
+  selectedAdditionalKeys.clear();
+  render();
+}
+
+function filterArtifacts() {
+  const term = ui.artifactSearch.value.trim().toLowerCase();
+  filteredArtifacts = artifacts.filter((artifact) => {
+    const haystack = `${artifact.name} ${categoryLabel(artifact.category)}`.toLowerCase();
+    return haystack.includes(term);
+  });
+  populateArtifactSelect();
 }
 
 function runKnownTests() {
-  const cases = [
-    {
-      name: "143% +8",
-      quality: 143,
-      potential: 8,
-      expected: { vitality: 4.48, temperature: -0.64, frost: 0.98, burning: -0.66 }
-    },
-    {
-      name: "135% +6",
-      quality: 135,
-      potential: 6,
-      expected: { vitality: 4.08, temperature: -0.58, frost: 0.90, burning: -0.60 }
-    }
+  const chilly = artifacts.find(a => a.id === "ljn2" || a.name === "Chilly");
+  if (!chilly) {
+    ui.tests.textContent = "⚠ Chilly was not found, so the known-value checks could not run.";
+    ui.tests.className = "fail";
+    return;
+  }
+
+  const oldSelection = selectedAdditionalKeys;
+  selectedAdditionalKeys = new Set();
+  const find = (quality, potential, name) => {
+    const row = calculateArtifact(chilly, quality, potential).find(x => x.name === name);
+    return Number(row.value.toFixed(2));
+  };
+
+  const checks = [
+    [find(143, 8, "Vitality"), 4.48],
+    [find(143, 8, "Temperature"), -0.64],
+    [find(143, 8, "Frost"), 0.98],
+    [find(143, 8, "Burning"), -0.66],
+    [find(135, 6, "Vitality"), 4.08],
+    [find(135, 6, "Temperature"), -0.58],
+    [find(135, 6, "Frost"), 0.90],
+    [find(135, 6, "Burning"), -0.60]
   ];
+  selectedAdditionalKeys = oldSelection;
 
-  const passed = cases.every(test => {
-    const actual = calculate(test.quality, test.potential, []);
-    return Object.entries(test.expected).every(([key, expected]) =>
-      Number(actual[key].toFixed(2)) === expected
-    );
-  });
-
-  testsEl.textContent = passed
-    ? "✓ Formula checks passed for 143% +8 and 135% +6."
-    : "⚠ One or more formula checks failed.";
-  testsEl.className = passed ? "pass" : "fail";
+  const passed = checks.every(([actual, expected]) => actual === expected);
+  ui.tests.textContent = passed
+    ? "✓ Chilly checks passed: 143% +8 and 135% +6 still match our verified values."
+    : "⚠ A Chilly formula check failed. Do not trust new calculations until this is corrected.";
+  ui.tests.className = passed ? "pass" : "fail";
 }
 
-qualityInput.addEventListener("input", render);
-potentialSelect.addEventListener("change", () => {
-  const maxSlots = unlockedSlots(Number(potentialSelect.value));
-  const selected = checkboxes.filter(cb => cb.checked);
-  selected.slice(maxSlots).forEach(cb => { cb.checked = false; });
+ui.artifactSearch.addEventListener("input", filterArtifacts);
+ui.artifactSelect.addEventListener("change", () => {
+  currentArtifact = artifacts.find(a => a.id === ui.artifactSelect.value) || null;
+  selectedAdditionalKeys.clear();
   render();
 });
+ui.quality.addEventListener("input", renderStats);
+ui.potential.addEventListener("change", render);
 
-checkboxes.forEach(cb => {
-  cb.addEventListener("change", () => {
-    enforceSlots(cb);
-    render();
-  });
-});
-
-runKnownTests();
-render();
+(async function init() {
+  ui.databaseStatus.textContent = "Loading artifact database…";
+  const loaded = await loadArtifactDatabase();
+  artifacts = sortArtifacts(loaded.artifacts);
+  filteredArtifacts = artifacts;
+  ui.artifactCount.textContent = artifacts.length;
+  ui.databaseStatus.textContent = loaded.source === "live"
+    ? "Full normalized artifact database loaded"
+    : "Database fetch failed — Chilly fallback loaded";
+  ui.databaseStatus.className = loaded.source === "live" ? "status live" : "status fallback";
+  populateArtifactSelect("ljn2");
+  runKnownTests();
+})();
