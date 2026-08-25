@@ -1,4 +1,4 @@
-name: Sync armor database
+name: Sync equipment database
 
 on:
   workflow_dispatch:
@@ -8,19 +8,25 @@ on:
     branches: [main]
     paths:
       - 'scripts/build-armors.mjs'
+      - 'scripts/build-containers.mjs'
       - '.github/workflows/sync-armors.yml'
+
+concurrency:
+  group: sync-equipment-database
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  sync-armors:
+  sync-equipment:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout calculator
         uses: actions/checkout@v4
         with:
           path: calculator
+          fetch-depth: 0
 
       - name: Checkout official EXBO database
         uses: actions/checkout@v4
@@ -28,20 +34,23 @@ jobs:
           repository: EXBO-Studio/stalzone-database
           path: stalzone-database
 
-      - name: Build compact armor database
+      - name: Build compact equipment databases
         working-directory: calculator
-        run: node scripts/build-armors.mjs ../stalzone-database/global/items/armor armors.json
+        run: |
+          node scripts/build-armors.mjs ../stalzone-database/global/items/armor armors.json
+          node scripts/build-containers.mjs ../stalzone-database/global/items/containers ../stalzone-database/global/items/backpacks containers.json
 
-      - name: Commit armor updates
+      - name: Commit equipment updates
         working-directory: calculator
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add armors.json
+          git add armors.json containers.json
           if git diff --cached --quiet; then
-            echo "Armor database is already current."
+            echo "Equipment databases are already current."
             exit 0
           fi
-          git commit -m "Sync armor database from EXBO"
-          git push
+          git commit -m "Sync equipment database from EXBO"
+          git pull --rebase origin main
+          git push origin main
