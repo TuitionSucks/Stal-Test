@@ -12,7 +12,7 @@ requirementTools.innerHTML = `
     <span>Filter requirements</span>
     <input id="requirementFilter" type="search" placeholder="Search Vitality, speed, frost…" autocomplete="off" />
   </label>
-  <p class="requirement-help">All searchable stats are listed below. Turn on only the requirements you care about, choose minimum or maximum, then enter the target value.</p>
+  <p class="requirement-help">Stats are grouped in the same practical order as Final Stats instead of alphabetically. Turn on only the requirements you care about.</p>
 `;
 requirementSectionRow?.insertAdjacentElement("afterend", requirementTools);
 
@@ -22,17 +22,110 @@ requirementStyle.textContent = `
   .requirement-search{display:grid;gap:5px}
   .requirement-search>span{font:10px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
   .requirement-help{margin:0;color:var(--muted);font-size:10.5px;line-height:1.4}
-  .requirements{max-height:520px;overflow:auto;padding-right:3px;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+  .requirements{max-height:560px;overflow:auto;padding-right:3px;scrollbar-width:thin;scrollbar-color:var(--border) transparent;display:grid;gap:8px}
   .requirements::-webkit-scrollbar{width:8px}.requirements::-webkit-scrollbar-thumb{background:var(--border);border-radius:99px}
+  .requirement-group{display:grid;gap:3px}
+  .requirement-group-title{padding:5px 2px 2px;font:700 9px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
   .requirement-row{grid-template-columns:minmax(0,1fr) 72px 78px!important;opacity:.58;transition:opacity .12s ease,background .12s ease,border-color .12s ease;border:1px solid transparent;border-radius:7px;padding:5px}
   .requirement-row.enabled{opacity:1;background:var(--panel-2);border-color:var(--border-soft)}
   .requirement-toggle{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:8px;min-width:0;cursor:pointer;color:var(--text-dim);font-size:11.5px}
   .requirement-toggle input{width:14px;height:14px;margin:0;accent-color:var(--accent)}
   .requirement-toggle span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .requirement-row:not(.enabled) select,.requirement-row:not(.enabled) input[type="number"]{opacity:.45}
-  .requirement-row.hidden-by-filter{display:none}
 `;
 document.head.appendChild(requirementStyle);
+
+const REQUIREMENT_GROUP_ORDER = ['Survivability', 'Mobility', 'Protection', 'Exposure', 'Other'];
+const REQUIREMENT_SURVIVABILITY_ORDER = [
+  'effective health',
+  'healing per second',
+  'vitality',
+  'healing effectiveness',
+  'health regeneration',
+  'periodic healing'
+];
+const REQUIREMENT_MOBILITY_ORDER = [
+  'movement speed',
+  'running speed',
+  'stamina',
+  'stamina regeneration',
+  'carry weight'
+];
+const REQUIREMENT_PROTECTION_ORDER = [
+  'bullet resistance',
+  'laceration protection',
+  'stability',
+  'explosion protection',
+  'fire resistance',
+  'electricity resistance',
+  'chemical resistance',
+  'radiation protection',
+  'thermal protection',
+  'bioinfection protection',
+  'psy-emission protection',
+  'bleeding protection'
+];
+const REQUIREMENT_EXPOSURE_ORDER = [
+  'radiation',
+  'temperature',
+  'biological infection',
+  'psy-emissions',
+  'psyonics',
+  'frost',
+  'bleeding',
+  'burning'
+];
+
+const REQUIREMENT_NAME_ALIASES = new Map([
+  ['electric resistance', 'electricity resistance'],
+  ['electrical resistance', 'electricity resistance'],
+  ['resistance to fire', 'fire resistance'],
+  ['resistance to electricity', 'electricity resistance'],
+  ['resistance to chemicals', 'chemical resistance'],
+  ['bio infection protection', 'bioinfection protection'],
+  ['biological infection protection', 'bioinfection protection'],
+  ['psy emission protection', 'psy-emission protection'],
+  ['psy protection', 'psy-emission protection']
+]);
+
+function normalizedRequirementName(value = '') {
+  const clean = String(value).trim().toLowerCase().replace(/[–—]/g, '-').replace(/\s+/g, ' ');
+  return REQUIREMENT_NAME_ALIASES.get(clean) || clean;
+}
+
+function requirementGroup(stat) {
+  const haystack = `${stat?.key || ''} ${stat?.name || ''}`.toLowerCase();
+  if (ACCUMULATION_STATS.has(stat?.key)) return 'Exposure';
+  if (/health|heal|regeneration|recovery|vitality/.test(haystack)) return 'Survivability';
+  if (/speed|stamina|weight|carry/.test(haystack)) return 'Mobility';
+  if (/protection|resistance|dmg_factor|stopping|stability/.test(haystack)) return 'Protection';
+  return 'Other';
+}
+
+function namedOrderIndex(name, orderedNames) {
+  const normalized = normalizedRequirementName(name);
+  const index = orderedNames.indexOf(normalized);
+  return index === -1 ? orderedNames.length : index;
+}
+
+function requirementStatOrderIndex(stat) {
+  const group = requirementGroup(stat);
+  if (group === 'Survivability') return namedOrderIndex(stat.name, REQUIREMENT_SURVIVABILITY_ORDER);
+  if (group === 'Mobility') return namedOrderIndex(stat.name, REQUIREMENT_MOBILITY_ORDER);
+  if (group === 'Protection') return namedOrderIndex(stat.name, REQUIREMENT_PROTECTION_ORDER);
+  if (group === 'Exposure') return namedOrderIndex(stat.name, REQUIREMENT_EXPOSURE_ORDER);
+  return Number.MAX_SAFE_INTEGER;
+}
+
+function orderedRequirementStats() {
+  return [...statCatalog].sort((a, b) => {
+    const groupDiff = REQUIREMENT_GROUP_ORDER.indexOf(requirementGroup(a)) - REQUIREMENT_GROUP_ORDER.indexOf(requirementGroup(b));
+    if (groupDiff) return groupDiff;
+    const orderDiff = requirementStatOrderIndex(a) - requirementStatOrderIndex(b);
+    if (orderDiff) return orderDiff;
+    return a.name.localeCompare(b.name);
+  });
+}
 
 function defaultRequirementOperator(stat) {
   return ACCUMULATION_STATS.has(stat.key) ? "<=" : ">=";
@@ -43,7 +136,7 @@ function buildAllRequirementRows(preserveExisting = true) {
     ? new Map(requirementRows.filter(row => row.key).map(row => [row.key, row]))
     : new Map();
 
-  requirementRows = statCatalog.map(stat => {
+  requirementRows = orderedRequirementStats().map(stat => {
     const old = previous.get(stat.key);
     return {
       id: stat.key,
@@ -55,26 +148,40 @@ function buildAllRequirementRows(preserveExisting = true) {
   });
 }
 
+function requirementRowHtml(row, stat) {
+  return `
+    <div class="requirement-row ${row.enabled ? "enabled" : ""}" data-requirement-id="${escapeHtml(row.id)}">
+      <label class="requirement-toggle" title="${escapeHtml(stat.name)}">
+        <input type="checkbox" data-enable-requirement="${escapeHtml(row.id)}" ${row.enabled ? "checked" : ""} />
+        <span>${escapeHtml(stat.name)}${stat.isPercentage ? " (%)" : ""}</span>
+      </label>
+      <select data-req-field="op" aria-label="Requirement comparison" ${row.enabled ? "" : "disabled"}>
+        <option value=">="${row.op === ">=" ? " selected" : ""}>≥ min</option>
+        <option value="<="${row.op === "<=" ? " selected" : ""}>≤ max</option>
+      </select>
+      <input data-req-field="target" type="number" step="0.01" value="${escapeHtml(row.target)}" placeholder="Value" aria-label="Target value" ${row.enabled ? "" : "disabled"} />
+    </div>`;
+}
+
 renderRequirements = function renderAllRequirements() {
   const filter = document.getElementById("requirementFilter")?.value.trim().toLowerCase() || "";
-  ui.requirements.innerHTML = requirementRows.map(row => {
+  const groups = new Map(REQUIREMENT_GROUP_ORDER.map(name => [name, []]));
+  for (const row of requirementRows) {
     const stat = statCatalog.find(item => item.key === row.key);
-    if (!stat) return "";
-    const hidden = filter && !stat.name.toLowerCase().includes(filter);
+    if (!stat) continue;
+    if (filter && !stat.name.toLowerCase().includes(filter)) continue;
+    groups.get(requirementGroup(stat)).push({ row, stat });
+  }
+
+  ui.requirements.innerHTML = REQUIREMENT_GROUP_ORDER.map(group => {
+    const entries = groups.get(group) || [];
+    if (!entries.length) return '';
     return `
-      <div class="requirement-row ${row.enabled ? "enabled" : ""} ${hidden ? "hidden-by-filter" : ""}" data-requirement-id="${escapeHtml(row.id)}">
-        <label class="requirement-toggle" title="${escapeHtml(stat.name)}">
-          <input type="checkbox" data-enable-requirement="${escapeHtml(row.id)}" ${row.enabled ? "checked" : ""} />
-          <span>${escapeHtml(stat.name)}${stat.isPercentage ? " (%)" : ""}</span>
-        </label>
-        <select data-req-field="op" aria-label="Requirement comparison" ${row.enabled ? "" : "disabled"}>
-          <option value=">="${row.op === ">=" ? " selected" : ""}>≥ min</option>
-          <option value="<="${row.op === "<=" ? " selected" : ""}>≤ max</option>
-        </select>
-        <input data-req-field="target" type="number" step="0.01" value="${escapeHtml(row.target)}" placeholder="Value" aria-label="Target value" ${row.enabled ? "" : "disabled"} />
-      </div>
-    `;
-  }).join("");
+      <section class="requirement-group">
+        <div class="requirement-group-title">${escapeHtml(group)}</div>
+        ${entries.map(({ row, stat }) => requirementRowHtml(row, stat)).join('')}
+      </section>`;
+  }).join("") || '<p class="requirement-help">No matching stats.</p>';
 };
 
 collectRequirements = function collectEnabledRequirements() {
