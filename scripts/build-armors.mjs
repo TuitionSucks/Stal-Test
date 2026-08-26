@@ -11,6 +11,7 @@ if (!sourceRoot || !fs.existsSync(sourceRoot)) {
 
 const STAT_PREFIX = 'stalker.artefact_properties.factor.';
 const SKIP_DIRS = new Set(['_variants']);
+const MAX_UPGRADE_LEVEL = 15;
 
 function english(value, fallback = '') {
   return value?.lines?.en ?? value?.value?.en ?? value?.text ?? fallback;
@@ -68,34 +69,61 @@ function mergeStats(stats) {
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function statsFromRaw(raw) {
+  return mergeStats(collectNumericStats(raw?.infoBlocks || []));
+}
+
 function rankFromColor(color = '') {
   const normalized = String(color).replace(/^RANK_/, '').toLowerCase();
   return normalized && normalized !== 'default' ? normalized : 'common';
 }
 
-const armors = [];
-for (const file of walkFiles(sourceRoot)) {
-  let raw;
+function readJson(file) {
   try {
-    raw = JSON.parse(fs.readFileSync(file, 'utf8'));
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
   } catch (error) {
     console.warn(`Skipping unreadable armor file: ${file}`, error.message);
-    continue;
+    return null;
   }
+}
+
+function collectUpgradeLevels(baseFile, armorId, baseStats) {
+  const levels = { 0: baseStats };
+  const variantDir = path.join(path.dirname(baseFile), '_variants', String(armorId));
+  if (!fs.existsSync(variantDir)) return levels;
+
+  for (let level = 1; level <= MAX_UPGRADE_LEVEL; level++) {
+    const variantFile = path.join(variantDir, `${level}.json`);
+    if (!fs.existsSync(variantFile)) continue;
+    const raw = readJson(variantFile);
+    if (!raw) continue;
+    const stats = statsFromRaw(raw);
+    if (stats.length) levels[level] = stats;
+  }
+  return levels;
+}
+
+const armors = [];
+for (const file of walkFiles(sourceRoot)) {
+  const raw = readJson(file);
+  if (!raw) continue;
 
   const name = english(raw.name);
   if (!raw.id || !name) continue;
 
-  const stats = mergeStats(collectNumericStats(raw.infoBlocks || []));
+  const stats = statsFromRaw(raw);
+  const levels = collectUpgradeLevels(file, raw.id, stats);
   armors.push({
     id: String(raw.id),
     name,
     category: String(raw.category || 'armor'),
     rank: rankFromColor(raw.color),
-    stats
+    stats,
+    levels
   });
 }
 
 armors.sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
 fs.writeFileSync(outputFile, `${JSON.stringify(armors, null, 2)}\n`);
-console.log(`Wrote ${armors.length} armors to ${outputFile}`);
+const withUpgrades = armors.filter(armor => Object.keys(armor.levels || {}).length > 1).length;
+console.log(`Wrote ${armors.length} armors to ${outputFile} (${withUpgrades} with EXBO upgrade variants)`);
