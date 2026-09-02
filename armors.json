@@ -5516,14 +5516,6 @@
         "origin": "armor"
       },
       {
-        "key": "stalker.artefact_properties.factor.speed_modifier",
-        "name": "Movement speed",
-        "value": -1,
-        "isPercentage": true,
-        "isPositive": false,
-        "origin": "armor"
-      },
-      {
         "key": "stalker.artefact_properties.factor.artefakt_heal",
         "name": "Periodic healing",
         "value": 2,
@@ -5636,14 +5628,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -5761,14 +5745,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -5880,14 +5856,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -6005,14 +5973,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -6124,14 +6084,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -6249,14 +6201,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -6368,14 +6312,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -6493,14 +6429,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -6612,14 +6540,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -6737,14 +6657,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -6856,14 +6768,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -6981,14 +6885,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -7100,14 +6996,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -7225,14 +7113,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -7347,14 +7227,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -7466,14 +7338,6 @@
           "value": 45,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -7595,14 +7459,6 @@
         "value": 68,
         "isPercentage": false,
         "isPositive": true,
-        "origin": "armor"
-      },
-      {
-        "key": "stalker.artefact_properties.factor.speed_modifier",
-        "name": "Movement speed",
-        "value": -1,
-        "isPercentage": true,
-        "isPositive": false,
         "origin": "armor"
       },
       {
@@ -7729,14 +7585,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -7856,14 +7704,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -7989,14 +7829,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -8116,14 +7948,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -8249,14 +8073,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -8376,14 +8192,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -8509,14 +8317,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -8636,14 +8436,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -8769,14 +8561,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -8896,14 +8680,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -9029,14 +8805,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -9156,14 +8924,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -9289,14 +9049,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -9416,14 +9168,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -9549,14 +9293,6 @@
           "origin": "armor"
         },
         {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
-          "origin": "armor"
-        },
-        {
           "key": "stalker.artefact_properties.factor.artefakt_heal",
           "name": "Periodic healing",
           "value": 2,
@@ -9676,14 +9412,6 @@
           "value": 68,
           "isPercentage": false,
           "isPositive": true,
-          "origin": "armor"
-        },
-        {
-          "key": "stalker.artefact_properties.factor.speed_modifier",
-          "name": "Movement speed",
-          "value": -1,
-          "isPercentage": true,
-          "isPositive": false,
           "origin": "armor"
         },
         {
@@ -21622,7 +21350,7 @@
       {
         "key": "stalker.artefact_properties.factor.speed_modifier",
         "name": "Movement speed",
-        "value": -7,
+        "value": -6,
         "isPercentage": true,
         "isPositive": false,
         "origin": "armor"
@@ -21745,7 +21473,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -21867,7 +21595,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -21989,7 +21717,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22111,7 +21839,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22233,7 +21961,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22355,7 +22083,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22477,7 +22205,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22599,7 +22327,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22721,7 +22449,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22843,7 +22571,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -22965,7 +22693,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -23087,7 +22815,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -23209,7 +22937,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -23331,7 +23059,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -23453,7 +23181,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -23575,7 +23303,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -7,
+          "value": -6,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -23648,7 +23376,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 282,
+        "value": 286,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -23771,7 +23499,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 282,
+          "value": 286,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -23893,7 +23621,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 285.4992,
+          "value": 289.5314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24015,7 +23743,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 288.9984,
+          "value": 293.0628,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24137,7 +23865,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 292.49762,
+          "value": 296.5942,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24259,7 +23987,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 295.99683,
+          "value": 300.1256,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24381,7 +24109,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 306.49445,
+          "value": 310.71982,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24503,7 +24231,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 311.74326,
+          "value": 316.0169,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24625,7 +24353,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 316.99207,
+          "value": 321.314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24747,7 +24475,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 322.24088,
+          "value": 326.61115,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24869,7 +24597,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 327.4897,
+          "value": 331.90823,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -24991,7 +24719,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 342.8862,
+          "value": 347.4464,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25113,7 +24841,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 350.58447,
+          "value": 355.21548,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25235,7 +24963,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 358.28275,
+          "value": 362.9846,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25357,7 +25085,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 365.98096,
+          "value": 370.75363,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25479,7 +25207,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 373.67923,
+          "value": 378.52274,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25601,7 +25329,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 396.77402,
+          "value": 401.83,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25730,7 +25458,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 203,
+        "value": 206,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -25738,7 +25466,7 @@
       {
         "key": "stalker.artefact_properties.factor.max_weight_bonus",
         "name": "Carry weight",
-        "value": 13,
+        "value": 15,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -25837,7 +25565,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 203,
+          "value": 206,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25845,7 +25573,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25943,7 +25671,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 205.82838,
+          "value": 208.8011,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -25951,7 +25679,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26049,7 +25777,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 208.65677,
+          "value": 211.60219,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26057,7 +25785,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26155,7 +25883,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 211.48517,
+          "value": 214.40329,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26163,7 +25891,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26261,7 +25989,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 214.31352,
+          "value": 217.20438,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26269,7 +25997,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26367,7 +26095,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 222.79869,
+          "value": 225.60768,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26375,7 +26103,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26473,7 +26201,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 227.04128,
+          "value": 229.80933,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26481,7 +26209,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26579,7 +26307,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 231.28383,
+          "value": 234.01097,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26587,7 +26315,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26685,7 +26413,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 235.52641,
+          "value": 238.21262,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26693,7 +26421,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26791,7 +26519,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 239.76898,
+          "value": 242.41428,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26799,7 +26527,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26897,7 +26625,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 252.21387,
+          "value": 254.73909,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -26905,7 +26633,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27003,7 +26731,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 258.43634,
+          "value": 260.9015,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27011,7 +26739,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27109,7 +26837,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 264.65875,
+          "value": 267.0639,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27117,7 +26845,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27215,7 +26943,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 270.88123,
+          "value": 273.22635,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27223,7 +26951,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27321,7 +27049,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 277.10367,
+          "value": 279.38876,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27329,7 +27057,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27427,7 +27155,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 295.771,
+          "value": 297.876,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -27435,7 +27163,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45030,7 +44758,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 197,
+        "value": 199,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -45153,7 +44881,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 197,
+          "value": 199,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45275,7 +45003,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 199.72076,
+          "value": 201.73624,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45397,7 +45125,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 202.44153,
+          "value": 204.4725,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45519,7 +45247,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 205.1623,
+          "value": 207.20876,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45641,7 +45369,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 207.88304,
+          "value": 209.94499,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45763,7 +45491,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 216.04533,
+          "value": 218.15373,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -45885,7 +45613,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 220.12646,
+          "value": 222.25812,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46007,7 +45735,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 224.20761,
+          "value": 226.3625,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46129,7 +45857,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 228.28877,
+          "value": 230.46686,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46251,7 +45979,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 232.3699,
+          "value": 234.57123,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46373,7 +46101,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 244.34125,
+          "value": 246.61073,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46495,7 +46223,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 250.32693,
+          "value": 252.63051,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46617,7 +46345,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 256.31262,
+          "value": 258.65024,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46739,7 +46467,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 262.2983,
+          "value": 264.67,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46861,7 +46589,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 268.284,
+          "value": 270.68976,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -46983,7 +46711,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 286.241,
+          "value": 288.749,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -63820,7 +63548,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 250,
+        "value": 247,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -63943,7 +63671,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 250,
+          "value": 247,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64065,7 +63793,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 253.20122,
+          "value": 250.17787,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64187,7 +63915,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 256.40244,
+          "value": 253.35573,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64309,7 +64037,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 259.60364,
+          "value": 256.5336,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64431,7 +64159,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 262.80487,
+          "value": 259.71146,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64553,7 +64281,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 272.40854,
+          "value": 269.24506,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64675,7 +64403,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 277.21036,
+          "value": 274.01184,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64797,7 +64525,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 282.0122,
+          "value": 278.77866,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -64919,7 +64647,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 286.81403,
+          "value": 283.54547,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65041,7 +64769,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 291.61584,
+          "value": 288.31226,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65163,7 +64891,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 305.7012,
+          "value": 302.29483,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65285,7 +65013,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 312.7439,
+          "value": 309.28616,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65407,7 +65135,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 319.7866,
+          "value": 316.27747,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65529,7 +65257,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 326.82925,
+          "value": 323.26877,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65651,7 +65379,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 333.87195,
+          "value": 330.26007,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65773,7 +65501,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 355,
+          "value": 351.234,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -65902,7 +65630,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 282,
+        "value": 286,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -66025,7 +65753,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 282,
+          "value": 286,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66147,7 +65875,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 285.4992,
+          "value": 289.5314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66269,7 +65997,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 288.9984,
+          "value": 293.0628,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66391,7 +66119,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 292.49762,
+          "value": 296.5942,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66513,7 +66241,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 295.99683,
+          "value": 300.1256,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66635,7 +66363,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 306.49445,
+          "value": 310.71982,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66757,7 +66485,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 311.74326,
+          "value": 316.0169,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -66879,7 +66607,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 316.99207,
+          "value": 321.314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67001,7 +66729,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 322.24088,
+          "value": 326.61115,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67123,7 +66851,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 327.4897,
+          "value": 331.90823,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67245,7 +66973,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 342.8862,
+          "value": 347.4464,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67367,7 +67095,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 350.58447,
+          "value": 355.21548,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67489,7 +67217,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 358.28275,
+          "value": 362.9846,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67611,7 +67339,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 365.98096,
+          "value": 370.75363,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67733,7 +67461,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 373.67923,
+          "value": 378.52274,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -67855,7 +67583,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 396.77402,
+          "value": 401.83,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -88574,7 +88302,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 282,
+        "value": 286,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -88697,7 +88425,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 282,
+          "value": 286,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -88819,7 +88547,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 285.4992,
+          "value": 289.5314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -88941,7 +88669,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 288.9984,
+          "value": 293.0628,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89063,7 +88791,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 292.49762,
+          "value": 296.5942,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89185,7 +88913,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 295.99683,
+          "value": 300.1256,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89307,7 +89035,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 306.49445,
+          "value": 310.71982,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89429,7 +89157,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 311.74326,
+          "value": 316.0169,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89551,7 +89279,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 316.99207,
+          "value": 321.314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89673,7 +89401,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 322.24088,
+          "value": 326.61115,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89795,7 +89523,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 327.4897,
+          "value": 331.90823,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -89917,7 +89645,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 342.8862,
+          "value": 347.4464,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -90039,7 +89767,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 350.58447,
+          "value": 355.21548,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -90161,7 +89889,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 358.28275,
+          "value": 362.9846,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -90283,7 +90011,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 365.98096,
+          "value": 370.75363,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -90405,7 +90133,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 373.67923,
+          "value": 378.52274,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -90527,7 +90255,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 396.77402,
+          "value": 401.83,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158034,7 +157762,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 198,
+        "value": 200,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -158042,7 +157770,7 @@
       {
         "key": "stalker.artefact_properties.factor.max_weight_bonus",
         "name": "Carry weight",
-        "value": 13,
+        "value": 15,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -158141,7 +157869,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 198,
+          "value": 200,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158149,7 +157877,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158247,7 +157975,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 200.72853,
+          "value": 202.74391,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158255,7 +157983,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158353,7 +158081,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 203.45706,
+          "value": 205.4878,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158361,7 +158089,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158459,7 +158187,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 206.18561,
+          "value": 208.2317,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158467,7 +158195,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158565,7 +158293,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 208.91414,
+          "value": 210.9756,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158573,7 +158301,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158671,7 +158399,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 217.09976,
+          "value": 219.2073,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158679,7 +158407,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158777,7 +158505,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 221.19255,
+          "value": 223.32318,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158785,7 +158513,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158883,7 +158611,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 225.28537,
+          "value": 227.43903,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158891,7 +158619,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158989,7 +158717,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 229.37817,
+          "value": 231.55487,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -158997,7 +158725,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159095,7 +158823,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 233.47096,
+          "value": 235.67073,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159103,7 +158831,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159201,7 +158929,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 245.47653,
+          "value": 247.7439,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159209,7 +158937,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159307,7 +159035,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 251.47931,
+          "value": 253.78049,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159315,7 +159043,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159413,7 +159141,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 257.4821,
+          "value": 259.81708,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159421,7 +159149,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159519,7 +159247,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 263.4849,
+          "value": 265.85367,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159527,7 +159255,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159625,7 +159353,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 269.48767,
+          "value": 271.89023,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159633,7 +159361,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159731,7 +159459,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 287.496,
+          "value": 290,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -159739,7 +159467,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161382,7 +161110,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 192,
+        "value": 195,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -161390,7 +161118,7 @@
       {
         "key": "stalker.artefact_properties.factor.max_weight_bonus",
         "name": "Carry weight",
-        "value": 13,
+        "value": 15,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -161489,7 +161217,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 192,
+          "value": 195,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161497,7 +161225,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161595,7 +161323,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 194.67513,
+          "value": 197.6991,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161603,7 +161331,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161701,7 +161429,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 197.35025,
+          "value": 200.39816,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161709,7 +161437,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161807,7 +161535,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 200.02538,
+          "value": 203.09726,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161815,7 +161543,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161913,7 +161641,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 202.70047,
+          "value": 205.79633,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -161921,7 +161649,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162019,7 +161747,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 210.72586,
+          "value": 213.89359,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162027,7 +161755,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162125,7 +161853,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 214.73854,
+          "value": 217.94221,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162133,7 +161861,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162231,7 +161959,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 218.7512,
+          "value": 221.99084,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162239,7 +161967,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162337,7 +162065,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 222.76389,
+          "value": 226.03947,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162345,7 +162073,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162443,7 +162171,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 226.77658,
+          "value": 230.0881,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162451,7 +162179,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162549,7 +162277,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 238.5471,
+          "value": 241.96407,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162557,7 +162285,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162655,7 +162383,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 244.43239,
+          "value": 247.90207,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162663,7 +162391,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162761,7 +162489,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 250.31766,
+          "value": 253.84006,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162769,7 +162497,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162867,7 +162595,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 256.20294,
+          "value": 259.77805,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162875,7 +162603,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162973,7 +162701,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 262.0882,
+          "value": 265.71603,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -162981,7 +162709,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -163079,7 +162807,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 279.74402,
+          "value": 283.53,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -163087,7 +162815,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165138,7 +164866,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 209,
+        "value": 211,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -165146,7 +164874,7 @@
       {
         "key": "stalker.artefact_properties.factor.max_weight_bonus",
         "name": "Carry weight",
-        "value": 13,
+        "value": 15,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -165245,7 +164973,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 209,
+          "value": 211,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165253,7 +164981,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165351,7 +165079,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 211.82915,
+          "value": 213.84978,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165359,7 +165087,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165457,7 +165185,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 214.6583,
+          "value": 216.69958,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165465,7 +165193,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165563,7 +165291,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 217.48743,
+          "value": 219.54936,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165571,7 +165299,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165669,7 +165397,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 220.31657,
+          "value": 222.39914,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165677,7 +165405,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165775,7 +165503,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 228.80403,
+          "value": 230.94849,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165783,7 +165511,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165881,7 +165609,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 233.04773,
+          "value": 235.22318,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165889,7 +165617,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165987,7 +165715,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 237.29146,
+          "value": 239.49788,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -165995,7 +165723,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166093,7 +165821,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 241.53519,
+          "value": 243.77255,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166101,7 +165829,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166199,7 +165927,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 245.77888,
+          "value": 248.04724,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166207,7 +165935,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166305,7 +166033,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 258.22714,
+          "value": 260.58627,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166313,7 +166041,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166411,7 +166139,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 264.45126,
+          "value": 266.8558,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166419,7 +166147,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166517,7 +166245,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 270.67538,
+          "value": 273.12534,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166525,7 +166253,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166623,7 +166351,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 276.89954,
+          "value": 279.3949,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166631,7 +166359,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166729,7 +166457,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 283.12366,
+          "value": 285.66443,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166737,7 +166465,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166835,7 +166563,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 301.796,
+          "value": 304.473,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -166843,7 +166571,7 @@
         {
           "key": "stalker.artefact_properties.factor.max_weight_bonus",
           "name": "Carry weight",
-          "value": 13,
+          "value": 15,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -176198,7 +175926,7 @@
       {
         "key": "stalker.artefact_properties.factor.speed_modifier",
         "name": "Movement speed",
-        "value": -2,
+        "value": -1,
         "isPercentage": true,
         "isPositive": false,
         "origin": "armor"
@@ -176329,7 +176057,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -176459,7 +176187,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -176589,7 +176317,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -176719,7 +176447,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -176849,7 +176577,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -176979,7 +176707,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177109,7 +176837,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177239,7 +176967,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177369,7 +177097,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177499,7 +177227,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177629,7 +177357,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177759,7 +177487,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -177889,7 +177617,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178019,7 +177747,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178149,7 +177877,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178279,7 +178007,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -2,
+          "value": -1,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178416,7 +178144,7 @@
       {
         "key": "stalker.artefact_properties.factor.speed_modifier",
         "name": "Movement speed",
-        "value": -3,
+        "value": -2,
         "isPercentage": true,
         "isPositive": false,
         "origin": "armor"
@@ -178547,7 +178275,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178677,7 +178405,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178807,7 +178535,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -178937,7 +178665,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179067,7 +178795,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179197,7 +178925,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179327,7 +179055,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179457,7 +179185,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179587,7 +179315,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179717,7 +179445,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179847,7 +179575,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -179977,7 +179705,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -180107,7 +179835,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -180237,7 +179965,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -180367,7 +180095,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -180497,7 +180225,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -180634,7 +180362,7 @@
       {
         "key": "stalker.artefact_properties.factor.speed_modifier",
         "name": "Movement speed",
-        "value": -3,
+        "value": -2,
         "isPercentage": true,
         "isPositive": false,
         "origin": "armor"
@@ -180765,7 +180493,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -180895,7 +180623,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181025,7 +180753,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181155,7 +180883,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181285,7 +181013,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181415,7 +181143,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181545,7 +181273,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181675,7 +181403,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181805,7 +181533,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -181935,7 +181663,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -182065,7 +181793,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -182195,7 +181923,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -182325,7 +182053,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -182455,7 +182183,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -182585,7 +182313,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -182715,7 +182443,7 @@
         {
           "key": "stalker.artefact_properties.factor.speed_modifier",
           "name": "Movement speed",
-          "value": -3,
+          "value": -2,
           "isPercentage": true,
           "isPositive": false,
           "origin": "armor"
@@ -188762,7 +188490,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 282,
+        "value": 286,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -188885,7 +188613,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 282,
+          "value": 286,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189007,7 +188735,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 285.4992,
+          "value": 289.5314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189129,7 +188857,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 288.9984,
+          "value": 293.0628,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189251,7 +188979,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 292.49762,
+          "value": 296.5942,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189373,7 +189101,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 295.99683,
+          "value": 300.1256,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189495,7 +189223,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 306.49445,
+          "value": 310.71982,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189617,7 +189345,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 311.74326,
+          "value": 316.0169,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189739,7 +189467,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 316.99207,
+          "value": 321.314,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189861,7 +189589,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 322.24088,
+          "value": 326.61115,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -189983,7 +189711,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 327.4897,
+          "value": 331.90823,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -190105,7 +189833,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 342.8862,
+          "value": 347.4464,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -190227,7 +189955,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 350.58447,
+          "value": 355.21548,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -190349,7 +190077,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 358.28275,
+          "value": 362.9846,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -190471,7 +190199,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 365.98096,
+          "value": 370.75363,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -190593,7 +190321,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 373.67923,
+          "value": 378.52274,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -190715,7 +190443,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 396.77402,
+          "value": 401.83,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -192870,7 +192598,7 @@
       {
         "key": "stalker.artefact_properties.factor.stopping_protection",
         "name": "Stability",
-        "value": 20,
+        "value": 25,
         "isPercentage": true,
         "isPositive": true,
         "origin": "armor"
@@ -192993,7 +192721,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193115,7 +192843,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193237,7 +192965,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193359,7 +193087,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193481,7 +193209,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193603,7 +193331,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193725,7 +193453,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193847,7 +193575,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -193969,7 +193697,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194091,7 +193819,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194213,7 +193941,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194335,7 +194063,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194457,7 +194185,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194579,7 +194307,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194701,7 +194429,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -194823,7 +194551,7 @@
         {
           "key": "stalker.artefact_properties.factor.stopping_protection",
           "name": "Stability",
-          "value": 20,
+          "value": 25,
           "isPercentage": true,
           "isPositive": true,
           "origin": "armor"
@@ -200302,7 +200030,7 @@
       {
         "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
         "name": "Bullet resistance",
-        "value": 272,
+        "value": 275,
         "isPercentage": false,
         "isPositive": true,
         "origin": "armor"
@@ -200425,7 +200153,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 272,
+          "value": 275,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -200547,7 +200275,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 275.4083,
+          "value": 278.4375,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -200669,7 +200397,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 278.8166,
+          "value": 281.875,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -200791,7 +200519,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 282.22488,
+          "value": 285.3125,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -200913,7 +200641,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 285.63315,
+          "value": 288.75,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201035,7 +200763,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 295.85803,
+          "value": 299.0625,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201157,7 +200885,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 300.97046,
+          "value": 304.21872,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201279,7 +201007,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 306.08292,
+          "value": 309.375,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201401,7 +201129,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 311.19534,
+          "value": 314.53125,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201523,7 +201251,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 316.3078,
+          "value": 319.6875,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201645,7 +201373,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 331.3043,
+          "value": 334.8125,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201767,7 +201495,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 338.80255,
+          "value": 342.375,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -201889,7 +201617,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 346.30078,
+          "value": 349.9375,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -202011,7 +201739,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 353.799,
+          "value": 357.5,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -202133,7 +201861,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 361.29727,
+          "value": 365.0625,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"
@@ -202255,7 +201983,7 @@
         {
           "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
           "name": "Bullet resistance",
-          "value": 383.792,
+          "value": 387.75,
           "isPercentage": false,
           "isPositive": true,
           "origin": "armor"

@@ -6,7 +6,7 @@
     "rank": "master",
     "capacity": 3,
     "protection": 89.5,
-    "effectiveness": 123,
+    "effectiveness": 127.5,
     "stats": [
       {
         "key": "stalker.artefact_properties.factor.max_weight_bonus",
@@ -47,8 +47,8 @@
       {
         "key": "stalker.artefact_properties.factor.stamina_bonus",
         "name": "Stamina",
-        "min": 50,
-        "max": 50,
+        "min": 35,
+        "max": 35,
         "isPositive": true,
         "isPercentage": true,
         "origin": "containers"
