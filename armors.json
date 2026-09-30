@@ -5446,7 +5446,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.25,
+        "value": -5,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -5561,7 +5561,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -5675,7 +5675,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -5789,7 +5789,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -5903,7 +5903,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6017,7 +6017,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6131,7 +6131,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6245,7 +6245,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6359,7 +6359,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6473,7 +6473,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6587,7 +6587,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6701,7 +6701,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6815,7 +6815,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -6929,7 +6929,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7043,7 +7043,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7157,7 +7157,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7271,7 +7271,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7392,7 +7392,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.25,
+        "value": -5,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -7515,7 +7515,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7637,7 +7637,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7759,7 +7759,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -7881,7 +7881,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8003,7 +8003,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8125,7 +8125,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8247,7 +8247,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8369,7 +8369,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8491,7 +8491,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8613,7 +8613,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8735,7 +8735,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8857,7 +8857,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -8979,7 +8979,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9101,7 +9101,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9223,7 +9223,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9345,7 +9345,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9474,7 +9474,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -1,
+        "value": -20,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -9581,7 +9581,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9687,7 +9687,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9793,7 +9793,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -9899,7 +9899,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10005,7 +10005,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10111,7 +10111,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10217,7 +10217,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10323,7 +10323,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10429,7 +10429,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10535,7 +10535,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10641,7 +10641,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10747,7 +10747,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10853,7 +10853,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -10959,7 +10959,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11065,7 +11065,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11171,7 +11171,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11284,7 +11284,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -11399,7 +11399,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11513,7 +11513,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11627,7 +11627,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11741,7 +11741,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11855,7 +11855,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -11969,7 +11969,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12083,7 +12083,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12197,7 +12197,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12311,7 +12311,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12425,7 +12425,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12539,7 +12539,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12653,7 +12653,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12767,7 +12767,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12881,7 +12881,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -12995,7 +12995,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13109,7 +13109,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13230,7 +13230,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -13345,7 +13345,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13459,7 +13459,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13573,7 +13573,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13687,7 +13687,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13801,7 +13801,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -13915,7 +13915,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14029,7 +14029,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14143,7 +14143,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14257,7 +14257,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14371,7 +14371,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14485,7 +14485,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14599,7 +14599,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14713,7 +14713,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14827,7 +14827,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -14941,7 +14941,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15055,7 +15055,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15176,7 +15176,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -15291,7 +15291,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15405,7 +15405,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15519,7 +15519,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15633,7 +15633,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15747,7 +15747,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15861,7 +15861,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -15975,7 +15975,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16089,7 +16089,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16203,7 +16203,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16317,7 +16317,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16431,7 +16431,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16545,7 +16545,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16659,7 +16659,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16773,7 +16773,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -16887,7 +16887,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -17001,7 +17001,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -74808,7 +74808,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -74947,7 +74947,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75085,7 +75085,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75223,7 +75223,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75361,7 +75361,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75499,7 +75499,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75637,7 +75637,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75775,7 +75775,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -75913,7 +75913,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76051,7 +76051,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76189,7 +76189,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76327,7 +76327,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76465,7 +76465,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76603,7 +76603,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76741,7 +76741,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -76879,7 +76879,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -77017,7 +77017,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -101372,7 +101372,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -101487,7 +101487,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -101601,7 +101601,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -101715,7 +101715,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -101829,7 +101829,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -101943,7 +101943,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102057,7 +102057,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102171,7 +102171,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102285,7 +102285,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102399,7 +102399,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102513,7 +102513,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102627,7 +102627,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102741,7 +102741,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102855,7 +102855,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -102969,7 +102969,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -103083,7 +103083,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -103197,7 +103197,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -106530,7 +106530,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -106645,7 +106645,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -106759,7 +106759,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -106873,7 +106873,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -106987,7 +106987,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107101,7 +107101,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107215,7 +107215,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107329,7 +107329,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107443,7 +107443,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107557,7 +107557,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107671,7 +107671,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107785,7 +107785,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -107899,7 +107899,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -108013,7 +108013,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -108127,7 +108127,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -108241,7 +108241,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -108355,7 +108355,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -122412,7 +122412,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -122535,7 +122535,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -122657,7 +122657,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -122779,7 +122779,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -122901,7 +122901,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123023,7 +123023,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123145,7 +123145,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123267,7 +123267,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123389,7 +123389,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123511,7 +123511,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123633,7 +123633,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123755,7 +123755,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123877,7 +123877,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -123999,7 +123999,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -124121,7 +124121,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -124243,7 +124243,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -124365,7 +124365,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -130468,7 +130468,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -1,
+        "value": -20,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -130583,7 +130583,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -130697,7 +130697,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -130811,7 +130811,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -130925,7 +130925,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131039,7 +131039,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131153,7 +131153,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131267,7 +131267,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131381,7 +131381,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131495,7 +131495,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131609,7 +131609,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131723,7 +131723,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131837,7 +131837,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -131951,7 +131951,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132065,7 +132065,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132179,7 +132179,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132293,7 +132293,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132414,7 +132414,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -132529,7 +132529,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132643,7 +132643,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132757,7 +132757,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132871,7 +132871,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -132985,7 +132985,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133099,7 +133099,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133213,7 +133213,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133327,7 +133327,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133441,7 +133441,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133555,7 +133555,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133669,7 +133669,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133783,7 +133783,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -133897,7 +133897,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -134011,7 +134011,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -134125,7 +134125,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -134239,7 +134239,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -144404,7 +144404,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -144511,7 +144511,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -144617,7 +144617,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -144723,7 +144723,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -144829,7 +144829,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -144935,7 +144935,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145041,7 +145041,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145147,7 +145147,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145253,7 +145253,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145359,7 +145359,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145465,7 +145465,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145571,7 +145571,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145677,7 +145677,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145783,7 +145783,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145889,7 +145889,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -145995,7 +145995,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146101,7 +146101,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146214,7 +146214,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -146329,7 +146329,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146443,7 +146443,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146557,7 +146557,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146671,7 +146671,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146785,7 +146785,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -146899,7 +146899,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147013,7 +147013,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147127,7 +147127,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147241,7 +147241,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147355,7 +147355,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147469,7 +147469,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147583,7 +147583,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147697,7 +147697,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147811,7 +147811,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -147925,7 +147925,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -148039,7 +148039,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -155264,7 +155264,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -1,
+        "value": -20,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -155411,7 +155411,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -155557,7 +155557,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -155703,7 +155703,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -155849,7 +155849,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -155995,7 +155995,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -156141,7 +156141,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -156287,7 +156287,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -156433,7 +156433,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -156579,7 +156579,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -156725,7 +156725,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -156871,7 +156871,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -157017,7 +157017,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -157163,7 +157163,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -157309,7 +157309,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -157455,7 +157455,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -157601,7 +157601,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172098,7 +172098,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -172213,7 +172213,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172327,7 +172327,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172441,7 +172441,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172555,7 +172555,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172669,7 +172669,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172783,7 +172783,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -172897,7 +172897,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173011,7 +173011,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173125,7 +173125,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173239,7 +173239,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173353,7 +173353,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173467,7 +173467,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173581,7 +173581,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173695,7 +173695,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173809,7 +173809,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -173923,7 +173923,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -175854,7 +175854,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.25,
+        "value": -5,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -175985,7 +175985,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176115,7 +176115,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176245,7 +176245,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176375,7 +176375,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176505,7 +176505,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176635,7 +176635,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176765,7 +176765,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -176895,7 +176895,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177025,7 +177025,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177155,7 +177155,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177285,7 +177285,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177415,7 +177415,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177545,7 +177545,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177675,7 +177675,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177805,7 +177805,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -177935,7 +177935,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.25,
+          "value": -5,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178072,7 +178072,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -178203,7 +178203,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178333,7 +178333,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178463,7 +178463,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178593,7 +178593,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178723,7 +178723,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178853,7 +178853,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -178983,7 +178983,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179113,7 +179113,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179243,7 +179243,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179373,7 +179373,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179503,7 +179503,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179633,7 +179633,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179763,7 +179763,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -179893,7 +179893,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180023,7 +180023,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180153,7 +180153,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180290,7 +180290,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -1,
+        "value": -20,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -180421,7 +180421,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180551,7 +180551,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180681,7 +180681,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180811,7 +180811,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -180941,7 +180941,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181071,7 +181071,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181201,7 +181201,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181331,7 +181331,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181461,7 +181461,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181591,7 +181591,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181721,7 +181721,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181851,7 +181851,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -181981,7 +181981,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -182111,7 +182111,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -182241,7 +182241,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -182371,7 +182371,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -182508,7 +182508,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -182639,7 +182639,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -182769,7 +182769,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -182899,7 +182899,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183029,7 +183029,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183159,7 +183159,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183289,7 +183289,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183419,7 +183419,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183549,7 +183549,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183679,7 +183679,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183809,7 +183809,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -183939,7 +183939,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -184069,7 +184069,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -184199,7 +184199,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -184329,7 +184329,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -184459,7 +184459,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -184589,7 +184589,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -211018,7 +211018,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -1,
+        "value": -20,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -211165,7 +211165,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -211311,7 +211311,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -211457,7 +211457,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -211603,7 +211603,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -211749,7 +211749,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -211895,7 +211895,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212041,7 +212041,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212187,7 +212187,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212333,7 +212333,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212479,7 +212479,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212625,7 +212625,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212771,7 +212771,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -212917,7 +212917,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -213063,7 +213063,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -213209,7 +213209,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -213355,7 +213355,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -1,
+          "value": -20,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -218938,7 +218938,7 @@
       {
         "key": "stalker.artefact_properties.factor.bleeding_accumulation",
         "name": "Bleeding",
-        "value": -0.5,
+        "value": -10,
         "isPercentage": false,
         "isPositive": false,
         "origin": "armor"
@@ -219061,7 +219061,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219183,7 +219183,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219305,7 +219305,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219427,7 +219427,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219549,7 +219549,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219671,7 +219671,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219793,7 +219793,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -219915,7 +219915,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220037,7 +220037,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220159,7 +220159,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220281,7 +220281,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220403,7 +220403,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220525,7 +220525,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220647,7 +220647,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220769,7 +220769,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
@@ -220891,7 +220891,7 @@
         {
           "key": "stalker.artefact_properties.factor.bleeding_accumulation",
           "name": "Bleeding",
-          "value": -0.5,
+          "value": -10,
           "isPercentage": false,
           "isPositive": false,
           "origin": "armor"
