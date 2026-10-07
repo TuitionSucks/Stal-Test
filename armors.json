@@ -7487,7 +7487,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 3,
         "isPercentage": true,
         "isPositive": true,
@@ -7610,7 +7610,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -7732,7 +7732,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -7854,7 +7854,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -7976,7 +7976,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8098,7 +8098,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8220,7 +8220,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8342,7 +8342,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8464,7 +8464,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8586,7 +8586,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8708,7 +8708,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8830,7 +8830,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -8952,7 +8952,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -9074,7 +9074,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -9196,7 +9196,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -9318,7 +9318,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -9440,7 +9440,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -74919,7 +74919,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 3,
         "isPercentage": true,
         "isPositive": true,
@@ -75058,7 +75058,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -75196,7 +75196,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -75334,7 +75334,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -75472,7 +75472,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -75610,7 +75610,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -75748,7 +75748,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -75886,7 +75886,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76024,7 +76024,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76162,7 +76162,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76300,7 +76300,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76438,7 +76438,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76576,7 +76576,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76714,7 +76714,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76852,7 +76852,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -76990,7 +76990,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -77128,7 +77128,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 3,
           "isPercentage": true,
           "isPositive": true,
@@ -92273,7 +92273,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 5,
         "isPercentage": true,
         "isPositive": true,
@@ -92388,7 +92388,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -92502,7 +92502,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -92616,7 +92616,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -92730,7 +92730,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -92844,7 +92844,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -92958,7 +92958,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93072,7 +93072,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93186,7 +93186,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93300,7 +93300,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93414,7 +93414,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93528,7 +93528,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93642,7 +93642,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93756,7 +93756,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93870,7 +93870,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -93984,7 +93984,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -94098,7 +94098,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -155383,7 +155383,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 5,
         "isPercentage": true,
         "isPositive": true,
@@ -155530,7 +155530,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -155676,7 +155676,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -155822,7 +155822,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -155968,7 +155968,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156114,7 +156114,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156260,7 +156260,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156406,7 +156406,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156552,7 +156552,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156698,7 +156698,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156844,7 +156844,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -156990,7 +156990,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -157136,7 +157136,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -157282,7 +157282,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -157428,7 +157428,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -157574,7 +157574,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -157720,7 +157720,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -175957,7 +175957,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 4,
         "isPercentage": true,
         "isPositive": true,
@@ -176088,7 +176088,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176218,7 +176218,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176348,7 +176348,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176478,7 +176478,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176608,7 +176608,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176738,7 +176738,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176868,7 +176868,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -176998,7 +176998,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177128,7 +177128,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177258,7 +177258,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177388,7 +177388,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177518,7 +177518,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177648,7 +177648,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177778,7 +177778,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -177908,7 +177908,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178038,7 +178038,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178175,7 +178175,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 4,
         "isPercentage": true,
         "isPositive": true,
@@ -178306,7 +178306,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178436,7 +178436,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178566,7 +178566,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178696,7 +178696,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178826,7 +178826,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -178956,7 +178956,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179086,7 +179086,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179216,7 +179216,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179346,7 +179346,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179476,7 +179476,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179606,7 +179606,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179736,7 +179736,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179866,7 +179866,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -179996,7 +179996,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -180126,7 +180126,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -180256,7 +180256,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 4,
           "isPercentage": true,
           "isPositive": true,
@@ -180393,7 +180393,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 5,
         "isPercentage": true,
         "isPositive": true,
@@ -180524,7 +180524,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -180654,7 +180654,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -180784,7 +180784,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -180914,7 +180914,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181044,7 +181044,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181174,7 +181174,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181304,7 +181304,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181434,7 +181434,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181564,7 +181564,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181694,7 +181694,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181824,7 +181824,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -181954,7 +181954,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -182084,7 +182084,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -182214,7 +182214,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -182344,7 +182344,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -182474,7 +182474,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -182611,7 +182611,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 5,
         "isPercentage": true,
         "isPositive": true,
@@ -182742,7 +182742,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -182872,7 +182872,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183002,7 +183002,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183132,7 +183132,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183262,7 +183262,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183392,7 +183392,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183522,7 +183522,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183652,7 +183652,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183782,7 +183782,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -183912,7 +183912,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -184042,7 +184042,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -184172,7 +184172,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -184302,7 +184302,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -184432,7 +184432,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -184562,7 +184562,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -184692,7 +184692,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -211137,7 +211137,7 @@
       },
       {
         "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-        "name": "Stamina regeneration",
+        "name": "Stamina recovery",
         "value": 5,
         "isPercentage": true,
         "isPositive": true,
@@ -211284,7 +211284,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -211430,7 +211430,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -211576,7 +211576,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -211722,7 +211722,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -211868,7 +211868,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212014,7 +212014,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212160,7 +212160,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212306,7 +212306,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212452,7 +212452,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212598,7 +212598,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212744,7 +212744,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -212890,7 +212890,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -213036,7 +213036,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -213182,7 +213182,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -213328,7 +213328,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
@@ -213474,7 +213474,7 @@
         },
         {
           "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
-          "name": "Stamina regeneration",
+          "name": "Stamina recovery",
           "value": 5,
           "isPercentage": true,
           "isPositive": true,
